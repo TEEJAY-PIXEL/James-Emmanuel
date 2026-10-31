@@ -30,7 +30,7 @@ const capabilities = [
 
 export default function Home() {
   return (
-    <main className="site-shell">
+    <main className="site-shell" id="top">
       <header className="topbar">
         <a className="wordmark" href="#" aria-label="James home">
           JAMES<span>.</span>
@@ -146,7 +146,7 @@ export default function Home() {
           JAMES<span>.</span>
         </a>
         <p>© {new Date().getFullYear()} James. All rights reserved.</p>
-        <a href="#top" onClick={(event) => { event.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>
+        <a href="#top">
           BACK TO TOP ↑
         </a>
       </footer>
