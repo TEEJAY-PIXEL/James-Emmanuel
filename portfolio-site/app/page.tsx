@@ -1,3 +1,6 @@
+import Image from "next/image";
+import { AboutSection, TestimonialsSection, ProcessSection, FAQSection, FreeAuditSection } from "./home-sections";
+
 const services = [
   "Shopify",
   "Wix",
@@ -108,10 +111,13 @@ export default function Home() {
 
           <div className="portrait-frame">
             {/* Add your portrait at public/images/james-profile.webp */}
-            <img
+            <Image
               src="/portfolio-watermarked/1777307059782.webp"
               alt="James, website and digital operations specialist"
               className="portrait"
+              width={220}
+              height={260}
+              priority
             />
           </div>
 
@@ -198,6 +204,12 @@ export default function Home() {
         </p>
       </section>
 
+
+      <AboutSection />
+      <TestimonialsSection />
+      <ProcessSection />
+      <FAQSection />
+      <FreeAuditSection />
 
       <footer className="footer">
         <a className="wordmark" href="#top">
