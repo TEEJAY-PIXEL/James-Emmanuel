@@ -154,3 +154,12 @@ a { color: inherit; text-decoration: none; }
 .case-cta .primary-button { margin-top:10px; }
 @media(max-width:900px){.case-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
 @media(max-width:620px){.case-hero{margin:55px auto 30px}.case-hero h1,.case-detail>h1{letter-spacing:-1.7px}.case-grid{grid-template-columns:1fr}.case-card{min-height:0}.case-detail{margin:42px auto 55px}.case-detail .case-cta{padding:23px}.case-filters button{padding:9px 14px}}
+
+
+/* Original project evidence gallery */
+.case-evidence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:24px}
+.case-evidence{margin:0;min-width:0}
+.case-evidence a{display:block;border:1px solid #e5e5e5;border-radius:12px;overflow:hidden;background:#f7f7f7}
+.case-evidence img{display:block;width:100%;height:auto;object-fit:contain}
+.case-evidence figcaption{font-size:12px;line-height:1.5;color:#666;margin-top:8px;overflow-wrap:anywhere}
+@media(max-width:640px){.case-evidence-grid{grid-template-columns:1fr;gap:14px}}
