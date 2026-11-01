@@ -111,3 +111,46 @@ a { color: inherit; text-decoration: none; }
   .contact-method-card > p { min-height: 0; }
   .contact-email-strip { flex-direction: column; align-items: flex-start; padding: 24px 20px; }
 }
+
+
+/* Case studies */
+.case-shell { min-height:100vh; }
+.case-hero { max-width:760px; margin:76px auto 38px; text-align:center; }
+.case-hero h1,.case-detail>h1 { margin:0; font-family:"Manrope",sans-serif; font-size:clamp(36px,5vw,58px); line-height:1.08; letter-spacing:-2.6px; }
+.case-hero h1 span { color:#777; }
+.case-hero>p:last-child { max-width:620px; margin:18px auto 0; color:var(--muted); font-size:14px; line-height:1.8; }
+.case-filters { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin:0 0 25px; }
+.case-filters button { border:1px solid #ddd; background:#fff; border-radius:30px; padding:10px 18px; color:#333; font:600 12px "DM Sans",sans-serif; cursor:pointer; }
+.case-filters button.active { background:#111; color:#fff; border-color:#111; }
+.case-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.case-card { display:flex; flex-direction:column; min-height:330px; padding:22px; border:1px solid var(--line); border-radius:8px; background:#fff; }
+.case-card-top { display:flex; justify-content:space-between; gap:8px; align-items:flex-start; color:#777; font-size:10px; }
+.case-tags { display:flex; flex-wrap:wrap; gap:5px; justify-content:flex-end; }
+.case-tags span { padding:5px 7px; background:#f1f1ef; border-radius:3px; color:#333; font-size:9px; font-weight:700; }
+.case-card h2 { margin:20px 0 8px; font:800 20px "Manrope",sans-serif; letter-spacing:-.6px; }
+.case-card>p { margin:0 0 18px; color:#666; font-size:12px; line-height:1.75; }
+.case-result { margin-top:auto; padding:13px; background:#f6f6f4; border-radius:4px; }
+.case-result span { color:#777; font-size:9px; font-weight:800; letter-spacing:.8px; }
+.case-result p { margin:6px 0 0; color:#333; font-size:11px; line-height:1.65; }
+.case-read-link { display:inline-flex; align-items:center; gap:10px; align-self:flex-start; margin-top:17px; padding-bottom:4px; border-bottom:1px solid #222; font-size:9px; font-weight:800; letter-spacing:.7px; }
+.case-privacy-note { margin:22px 0 55px; color:#777; font-size:11px; line-height:1.7; text-align:center; }
+.case-detail { max-width:820px; margin:58px auto 70px; }
+.case-back { display:inline-block; margin-bottom:32px; font-size:10px; font-weight:800; letter-spacing:.8px; }
+.case-detail .eyebrow { margin-bottom:12px; }
+.case-lede { max-width:700px; color:#555; font-size:16px; line-height:1.8; }
+.case-meta { display:flex; flex-wrap:wrap; gap:9px; margin:24px 0 36px; }
+.case-meta span { padding:8px 11px; border:1px solid #e5e5e5; border-radius:3px; color:#555; font-size:10px; }
+.case-detail section { padding:25px 0; border-top:1px solid var(--line); }
+.case-detail section h2 { margin:0 0 12px; font:800 23px "Manrope",sans-serif; letter-spacing:-.7px; }
+.case-detail section p,.case-detail li { color:#5d5d5d; font-size:13px; line-height:1.85; }
+.case-detail ol { padding-left:20px; }
+.case-detail li { padding:4px 0 4px 5px; }
+.case-metrics { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-top:18px; }
+.case-metrics div { display:flex; flex-direction:column; gap:6px; padding:16px; background:#f5f5f3; border-radius:5px; }
+.case-metrics strong { font:800 25px "Manrope",sans-serif; }
+.case-metrics span { color:#666; font-size:10px; line-height:1.5; }
+.case-detail .case-cta { margin-top:20px; padding:30px; border:0; border-radius:8px; background:#f4f4f2; }
+.case-cta h2 { font-size:30px!important; }
+.case-cta .primary-button { margin-top:10px; }
+@media(max-width:900px){.case-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:620px){.case-hero{margin:55px auto 30px}.case-hero h1,.case-detail>h1{letter-spacing:-1.7px}.case-grid{grid-template-columns:1fr}.case-card{min-height:0}.case-detail{margin:42px auto 55px}.case-detail .case-cta{padding:23px}.case-filters button{padding:9px 14px}}
