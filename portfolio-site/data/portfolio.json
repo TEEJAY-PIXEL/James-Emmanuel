@@ -26,13 +26,6 @@
           "watermarkedPath": "/portfolio-watermarked/Mayralondon%20GMC%20ERROR.webp"
         },
         {
-          "filePath": "../Mayralondon Approved fix.PNG",
-          "type": "image",
-          "caption": "Mayralondon Approved fix",
-          "altText": "Project evidence for Mayra London: Mayralondon Approved fix",
-          "watermarkedPath": "/portfolio-watermarked/Mayralondon%20Approved%20fix.webp"
-        },
-        {
           "filePath": "../Mayralondon No issue.PNG",
           "type": "image",
           "caption": "Mayralondon No issue",
@@ -189,13 +182,6 @@
       "description": "Reviewed a Merchant Center website-improvement notice and subsequent product-feed status.",
       "media": [
         {
-          "filePath": "../Edin london Email GMC.PNG",
-          "type": "image",
-          "caption": "Edin london Email GMC",
-          "altText": "Project evidence for Edin London: Edin london Email GMC",
-          "watermarkedPath": "/portfolio-watermarked/Edin%20london%20Email%20GMC.webp"
-        },
-        {
           "filePath": "../Edin london fixed product feed.PNG",
           "type": "image",
           "caption": "Edin london fixed product feed",
@@ -344,13 +330,6 @@
           "caption": "KOUAM APPROVED PRODUCT",
           "altText": "Project evidence for Kouam Business: KOUAM APPROVED PRODUCT",
           "watermarkedPath": "/portfolio-watermarked/KOUAM%20APPROVED%20PRODUCT.webp"
-        },
-        {
-          "filePath": "../KOUAM EMAILED FIX.JPG",
-          "type": "image",
-          "caption": "KOUAM EMAILED FIX",
-          "altText": "Project evidence for Kouam Business: KOUAM EMAILED FIX",
-          "watermarkedPath": "/portfolio-watermarked/KOUAM%20EMAILED%20FIX.webp"
         },
         {
           "filePath": "../KOUAM FIXED GMC.JPG",
@@ -530,13 +509,6 @@
           "caption": "Book pro all product approved",
           "altText": "Project evidence for The Book Pro: Book pro all product approved",
           "watermarkedPath": "/portfolio-watermarked/Book%20pro%20all%20product%20approved.webp"
-        },
-        {
-          "filePath": "../Google ads the book.PNG",
-          "type": "image",
-          "caption": "Google ads the book",
-          "altText": "Project evidence for The Book Pro: Google ads the book",
-          "watermarkedPath": "/portfolio-watermarked/Google%20ads%20the%20book.webp"
         }
       ],
       "result": "The Merchant Center filenames indicate product approval. The Google Ads screenshot does not establish a campaign outcome.",
@@ -686,25 +658,11 @@
       "description": "Reviewed Google Ads account and setup evidence.",
       "media": [
         {
-          "filePath": "../ADS ACCOUNT BIOPH.JPG",
-          "type": "image",
-          "caption": "ADS ACCOUNT BIOPH",
-          "altText": "Project evidence for Biophysics Business: ADS ACCOUNT BIOPH",
-          "watermarkedPath": "/portfolio-watermarked/ADS%20ACCOUNT%20BIOPH.webp"
-        },
-        {
           "filePath": "../BIOPHY.JPG",
           "type": "image",
           "caption": "BIOPHY",
           "altText": "Project evidence for Biophysics Business: BIOPHY",
           "watermarkedPath": "/portfolio-watermarked/BIOPHY.webp"
-        },
-        {
-          "filePath": "../AGD SEETUP.JPG",
-          "type": "image",
-          "caption": "AGD SEETUP",
-          "altText": "Project evidence for Biophysics Business: AGD SEETUP",
-          "watermarkedPath": "/portfolio-watermarked/AGD%20SEETUP.webp"
         }
       ],
       "result": "TBC — the screenshots do not establish a confirmed account reinstatement or campaign performance outcome.",
@@ -822,6 +780,38 @@
     {
       "file": "APP.JPG",
       "reason": "Google service and business attribution unclear; excluded pending identification."
+    },
+    {
+      "file": "Mayralondon Approved fix.PNG",
+      "reason": "Flagged during the earlier repository review as potentially showing email addresses, account identifiers, or business contact details. Excluded from the public gallery pending a safe review/copy."
+    },
+    {
+      "file": "Edin london Email GMC.PNG",
+      "reason": "Flagged during the earlier repository review as potentially showing email addresses, account identifiers, or business contact details. Excluded from the public gallery pending a safe review/copy."
+    },
+    {
+      "file": "KOUAM EMAILED FIX.JPG",
+      "reason": "Flagged during the earlier repository review as potentially showing email addresses, account identifiers, or business contact details. Excluded from the public gallery pending a safe review/copy."
+    },
+    {
+      "file": "ADS ACCOUNT BIOPH.JPG",
+      "reason": "Flagged during the earlier repository review as potentially showing email addresses, account identifiers, or business contact details. Excluded from the public gallery pending a safe review/copy."
+    },
+    {
+      "file": "AGD SEETUP.JPG",
+      "reason": "Flagged during the earlier repository review as potentially showing email addresses, account identifiers, or business contact details. Excluded from the public gallery pending a safe review/copy."
+    },
+    {
+      "file": "Google ads the book.PNG",
+      "reason": "Flagged during the earlier repository review as potentially showing email addresses, account identifiers, or business contact details. Excluded from the public gallery pending a safe review/copy."
+    },
+    {
+      "file": "GBP approved.PNG",
+      "reason": "Flagged during the earlier repository review as potentially showing email addresses, account identifiers, or business contact details. Excluded from the public gallery pending a safe review/copy."
+    },
+    {
+      "file": "GB.JPG",
+      "reason": "Flagged during the earlier repository review as potentially showing email addresses, account identifiers, or business contact details. Excluded from the public gallery pending a safe review/copy."
     }
   ],
   "notes": [
@@ -829,6 +819,7 @@
     "Only generated watermarked copies are referenced by the portfolio gallery.",
     "PDFs and videos were not found in the repository scan.",
     "Google Ads evidence is included as a service category alongside GMC, GMB and GA4. No identifiable GTM evidence was found.",
-    "Business/project labels follow repository filenames. Unclear business attributions remain marked TBC or excluded."
+    "Business/project labels follow repository filenames. Unclear business attributions remain marked TBC or excluded.",
+    "Potentially sensitive screenshots identified in the earlier repository review are excluded from the public gallery; source files remain untouched."
   ]
 }
