@@ -1,0 +1,36 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "[LAST UPDATED DATE]",
+  "intro": "This policy explains how James handles personal information when you visit this website or contact him about a project.",
+  "sections": [
+    {
+      "heading": "Information I collect",
+      "body": "If you use the contact or audit forms, I may collect the details you submit, such as your name, email address, website URL, selected service and message. If analytics are enabled after your consent, Google Analytics 4 or Google Tag Manager may process website usage and device information. Cookies or similar technologies may be used for consent preferences and analytics."
+    },
+    {
+      "heading": "Why I use it",
+      "body": "I use submitted information to respond to enquiries, understand your project, provide requested services, maintain website security and, where you consent, understand how visitors use this website."
+    },
+    {
+      "heading": "How long I keep it",
+      "body": "Enquiry and project information is retained only as long as needed for the relevant purpose and legitimate business or legal requirements. Exact retention periods: [RETENTION PERIOD]. Cookie and analytics retention depends on the settings of the relevant provider."
+    },
+    {
+      "heading": "Service providers",
+      "body": "This website is hosted using Vercel. Google Analytics and Google Tag Manager may be used only after analytics consent and once configured. Form submissions will be handled by [FORM PROVIDER]. These providers may process information under their own privacy terms."
+    },
+    {
+      "heading": "Your choices and rights",
+      "body": "You can decline optional analytics cookies using the consent banner. You may request access to, correction of or deletion of personal information I hold, subject to applicable legal obligations. Contact me using the details below."
+    },
+    {
+      "heading": "International visitors",
+      "body": "I aim to handle personal information in line with applicable Nigerian data protection requirements, including the Nigeria Data Protection Act (NDPA), and relevant GDPR principles where they apply to visitors in the European Economic Area or United Kingdom."
+    },
+    {
+      "heading": "Contact",
+      "body": "For privacy questions or requests, contact James at jamesmanuel966@gmail.com."
+    }
+  ],
+  "contactEmail": "jamesmanuel966@gmail.com"
+}
