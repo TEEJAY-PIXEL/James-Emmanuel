@@ -1,3 +1,5 @@
+import SiteHeader from "@/app/components/site-header";
+import SiteFooter from "@/app/components/site-footer";
 import Image from "next/image";
 import { AboutSection, TestimonialsSection, ProcessSection, FAQSection, FreeAuditSection } from "./home-sections";
 
@@ -70,21 +72,7 @@ const serviceDetails = [
 export default function Home() {
   return (
     <main className="site-shell" id="top">
-      <header className="topbar">
-        <a className="wordmark" href="#top" aria-label="James home">
-          JAMES<span>.</span>
-        </a>
-        <nav className="top-nav" aria-label="Main navigation">
-          <a href="#expertise">Expertise</a>
-          <a href="#services">Services</a>
-          <a href="/portfolio">Portfolio</a>
-          <a href="/case-studies">Case studies</a>
-          <a href="/contact">Contact</a>
-        </nav>
-        <a className="nav-cta" href="/contact">
-          LET&apos;S TALK <span aria-hidden="true">↗</span>
-        </a>
-      </header>
+      <SiteHeader />
 
       <section className="intro-section">
         <p className="eyebrow">INDEPENDENT DIGITAL SPECIALIST</p>
@@ -212,13 +200,7 @@ export default function Home() {
       <FAQSection />
       <FreeAuditSection />
 
-      <footer className="footer">
-        <a className="wordmark" href="#top">
-          JAMES<span>.</span>
-        </a>
-        <p>© {new Date().getFullYear()} James. All rights reserved.</p>
-        <a href="#top">BACK TO TOP ↑</a>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }
