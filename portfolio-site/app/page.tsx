@@ -107,7 +107,7 @@ export default function Home() {
           <div className="portrait-frame">
             {/* Add your portrait at public/images/james-profile.webp */}
             <img
-              src="/images/james-profile.webp"
+              src="https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/1777307059782.png"
               alt="James, website and digital operations specialist"
               className="portrait"
             />
