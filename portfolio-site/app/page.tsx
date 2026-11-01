@@ -74,9 +74,9 @@ export default function Home() {
         <nav className="top-nav" aria-label="Main navigation">
           <a href="#expertise">Expertise</a>
           <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
+          <a href="/contact">Contact</a>
         </nav>
-        <a className="nav-cta" href="#contact">
+        <a className="nav-cta" href="/contact">
           LET&apos;S TALK <span aria-hidden="true">↗</span>
         </a>
       </header>
@@ -130,7 +130,7 @@ export default function Home() {
               ))}
             </div>
 
-            <a className="primary-button" href="#contact">
+            <a className="primary-button" href="/contact">
               LET&apos;S BUILD SOMETHING GREAT <span aria-hidden="true">↗</span>
             </a>
           </div>
@@ -183,7 +183,7 @@ export default function Home() {
                 <span>Typical turnaround</span>
                 <p>{item.turnaround}</p>
               </div>
-              <a className="service-link" href="#contact">
+              <a className="service-link" href="/contact">
                 DISCUSS THIS SERVICE <span aria-hidden="true">↗</span>
               </a>
             </article>
@@ -196,19 +196,6 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="contact-section" id="contact">
-        <div>
-          <p className="eyebrow">HAVE A PROJECT IN MIND?</p>
-          <h2>Let&apos;s make your next move count.</h2>
-          <p>
-            Tell me what you&apos;re building and where you need support. I&apos;d
-            be glad to discuss the right scope and timeline with you.
-          </p>
-        </div>
-        <a className="primary-button contact-button" href="mailto:">
-          GET IN TOUCH <span aria-hidden="true">↗</span>
-        </a>
-      </section>
 
       <footer className="footer">
         <a className="wordmark" href="#top">
