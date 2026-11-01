@@ -5,11 +5,11 @@ type Consent="accepted"|"rejected"|null;
 const STORAGE_KEY="james_web_cookie_consent";
 
 export default function CookieConsent(){
- const [choice,setChoice]=useState<Consent>(null);
+
  const [visible,setVisible]=useState(false);
  useEffect(()=>{
   const saved=window.localStorage.getItem(STORAGE_KEY) as Consent;
-  if(saved==="accepted"||saved==="rejected"){setChoice(saved);setVisible(false);if(saved==="accepted")loadAnalytics();}
+  if(saved==="accepted"||saved==="rejected"){setVisible(false);if(saved==="accepted")loadAnalytics();}
   else setVisible(true);
  },[]);
  function loadAnalytics(){
@@ -23,7 +23,7 @@ export default function CookieConsent(){
    const s=document.createElement("script");s.dataset.consentGtm="true";s.async=true;s.src="https://www.googletagmanager.com/gtm.js?id="+encodeURIComponent(gtm);document.head.appendChild(s);
   }
  }
- function select(value:Exclude<Consent,null>){window.localStorage.setItem(STORAGE_KEY,value);setChoice(value);setVisible(false);if(value==="accepted")loadAnalytics();}
+ function select(value:Exclude<Consent,null>){window.localStorage.setItem(STORAGE_KEY,value);setVisible(false);if(value==="accepted")loadAnalytics();}
  if(!visible)return null;
  return <aside className="cookie-consent" role="dialog" aria-label="Cookie preferences"><div><strong>Cookie preferences</strong><p>Essential site functions are always active. Optional analytics cookies are used only if you accept. Read the <a href="/privacy-policy">Privacy Policy</a>.</p></div><div className="cookie-actions"><button type="button" onClick={()=>select("rejected")}>REJECT OPTIONAL</button><button type="button" onClick={()=>select("accepted")}>ACCEPT ANALYTICS</button></div></aside>;
 }
