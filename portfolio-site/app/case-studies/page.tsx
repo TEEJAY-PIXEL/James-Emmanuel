@@ -1,3 +1,5 @@
+import SiteHeader from "@/app/components/site-header";
+import SiteFooter from "@/app/components/site-footer";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { caseStudies } from "@/lib/case-studies";
@@ -11,13 +13,7 @@ export const metadata: Metadata = {
 export default function CaseStudiesPage() {
   return (
     <main className="site-shell case-shell">
-      <header className="topbar">
-        <Link className="wordmark" href="/">JAMES<span>.</span></Link>
-        <nav className="top-nav" aria-label="Main navigation">
-          <Link href="/#expertise">Expertise</Link><Link href="/case-studies">Case studies</Link><Link href="/contact">Contact</Link>
-        </nav>
-        <Link className="nav-cta" href="/contact">LET&apos;S TALK ↗</Link>
-      </header>
+      <SiteHeader />
       <section className="case-hero">
         <p className="eyebrow">SELECTED PROJECT EVIDENCE</p>
         <h1>Real account work.<br/><span>Clear, honest evidence.</span></h1>
@@ -25,7 +21,7 @@ export default function CaseStudiesPage() {
       </section>
       <CaseStudyFilters studies={caseStudies} />
       <p className="case-privacy-note">Client names are anonymized. Original screenshots are withheld until identifying details can be safely redacted. Figures shown are account snapshots, not promises of business outcomes.</p>
-      <footer className="footer"><Link className="wordmark" href="/">JAMES<span>.</span></Link><p>© {new Date().getFullYear()} James. All rights reserved.</p><Link href="/contact">CONTACT ↗</Link></footer>
+      <SiteFooter />
     </main>
   );
 }
