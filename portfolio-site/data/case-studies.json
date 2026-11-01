@@ -1,0 +1,281 @@
+{
+  "disclaimer": "Client and brand names are anonymized. No original screenshots are displayed until safe redacted copies are prepared. Results are limited to figures or status statements visible in repository evidence; missing details are TBC.",
+  "caseStudies": [
+    {
+      "slug": "uk-fashion-retailer",
+      "brandName": "UK Fashion Retailer",
+      "industry": "Fashion e-commerce",
+      "platform": "TBC",
+      "serviceType": [
+        "GMC"
+      ],
+      "problem": "Merchant Center showed a misrepresentation policy issue and a separate no-products-displayed issue, preventing products from showing in the United Kingdom.",
+      "businessImpact": "Product visibility in the United Kingdom was blocked according to the Merchant Center warning.",
+      "approach": [
+        "Reviewed the visible Merchant Center policy and product-availability warnings.",
+        "Prepared changes for review; the exact website or account changes are not documented in the available evidence.",
+        "Requested a Merchant Center review.",
+        "Checked the account after Google's review response."
+      ],
+      "result": "Google's email states that the review of the no-products-on-website issue was completed and that the issue no longer appeared. A later overview screenshot shows 8 approved products and 28 under review out of 36 total; this is a dated snapshot, not a verified final outcome.",
+      "metrics": [
+        {
+          "label": "Approved products in screenshot",
+          "value": "8"
+        },
+        {
+          "label": "Products under review in screenshot",
+          "value": "28"
+        },
+        {
+          "label": "Total products in screenshot",
+          "value": "36"
+        }
+      ],
+      "images": [],
+      "imageNote": "TBC — source screenshots require redaction before public display.",
+      "altTexts": []
+    },
+    {
+      "slug": "cycling-ecommerce-store",
+      "brandName": "Cycling E-commerce Store",
+      "industry": "Sports and cycling retail",
+      "platform": "TBC",
+      "serviceType": [
+        "GMC"
+      ],
+      "problem": "A Merchant Center screenshot shows a policy issue described as misleading or deceptive statements, with products affected.",
+      "businessImpact": "The screenshot states the issue prevented products from showing on Google.",
+      "approach": [
+        "Reviewed the policy warning shown in Merchant Center.",
+        "Prepared a review request; the precise remediation steps are not documented in the repository evidence.",
+        "Checked the subsequent review and product-feed screenshots."
+      ],
+      "result": "The repository includes later review and approved-feed screenshots. No independently verifiable approval count or business uplift is documented; TBC.",
+      "metrics": [],
+      "images": [],
+      "imageNote": "TBC — source screenshots require redaction before public display.",
+      "altTexts": []
+    },
+    {
+      "slug": "merchant-website-improvement",
+      "brandName": "Online Retail Business",
+      "industry": "E-commerce",
+      "platform": "TBC",
+      "serviceType": [
+        "GMC"
+      ],
+      "problem": "Merchant Center had a 'Website improvement needed' issue.",
+      "businessImpact": "The screenshot confirms the issue was present; a quantified impact is not documented.",
+      "approach": [
+        "Reviewed the Merchant Center issue notice.",
+        "Worked on the issue; the specific website changes are not recorded in the available files.",
+        "Requested a review from Google Merchant Center.",
+        "Checked Google's response and the product diagnostics screen."
+      ],
+      "result": "Google Merchant Center's email says the 'Website Improvement Needed' issue no longer appeared in the account after review. The later product screen states there were no products requiring attention.",
+      "metrics": [],
+      "images": [],
+      "imageNote": "TBC — source screenshots include account identifiers and require redaction.",
+      "altTexts": []
+    },
+    {
+      "slug": "home-and-lifestyle-store",
+      "brandName": "Home & Lifestyle Store",
+      "industry": "Home furnishings",
+      "platform": "TBC",
+      "serviceType": [
+        "GMC"
+      ],
+      "problem": "The filenames and screenshots indicate a Merchant Center issue and a subsequent fixed-issue state; the exact policy or product diagnosis is not sufficiently clear.",
+      "businessImpact": "TBC.",
+      "approach": [
+        "Reviewed the available Merchant Center screenshots.",
+        "Investigated the reported issue; exact technical steps are not documented.",
+        "Checked the later screenshot labeled as a fixed issue."
+      ],
+      "result": "A later screenshot is labeled as a fixed issue. The precise issue and measurable result are TBC.",
+      "metrics": [],
+      "images": [],
+      "imageNote": "TBC — source screenshots require redaction before public display.",
+      "altTexts": []
+    },
+    {
+      "slug": "travel-products-store",
+      "brandName": "Travel Products Store",
+      "industry": "Travel and tourism retail",
+      "platform": "TBC",
+      "serviceType": [
+        "GMC"
+      ],
+      "problem": "The available filenames indicate product errors in Merchant Center.",
+      "businessImpact": "TBC; the screenshots do not establish a quantified commercial impact.",
+      "approach": [
+        "Reviewed Merchant Center product-error evidence.",
+        "Worked through the product errors; exact fixes are not documented in the available files.",
+        "Checked the later error-resolution and product-approval screenshots."
+      ],
+      "result": "Files are labeled as errors solved and approved products. No supported numeric result is available; TBC.",
+      "metrics": [],
+      "images": [],
+      "imageNote": "TBC — source screenshots require redaction before public display.",
+      "altTexts": []
+    },
+    {
+      "slug": "online-wellbeing-business",
+      "brandName": "Online Wellbeing Business",
+      "industry": "Wellbeing",
+      "platform": "TBC",
+      "serviceType": [
+        "GMB"
+      ],
+      "problem": "The evidence relates to Google Business Profile verification or publication; an earlier profile problem is not shown.",
+      "businessImpact": "The profile's public visibility was the intended outcome; no traffic or lead impact is documented.",
+      "approach": [
+        "Reviewed the Google Business Profile notification.",
+        "Checked Google's confirmation email.",
+        "Confirmed the email stated that the profile was live on Google Search and Maps."
+      ],
+      "result": "Google's notification states the Business Profile is live on Google Search and Maps. No performance metrics are documented.",
+      "metrics": [],
+      "images": [],
+      "imageNote": "TBC — source email screenshot contains identifying details and requires redaction.",
+      "altTexts": []
+    },
+    {
+      "slug": "ga4-measurement-review",
+      "brandName": "E-commerce Analytics Project",
+      "industry": "TBC",
+      "platform": "TBC",
+      "serviceType": [
+        "GA4"
+      ],
+      "problem": "A GA4 analytics screenshot exists, but the property name, tracking issue, and requested work are not established by the available evidence.",
+      "businessImpact": "TBC.",
+      "approach": [
+        "A GA4 screenshot is present in the repository.",
+        "The audit scope and implementation steps are not documented."
+      ],
+      "result": "TBC — the screenshot alone does not prove a tracking fix or performance improvement.",
+      "metrics": [],
+      "images": [],
+      "imageNote": "TBC — screenshot needs review and redaction before public display.",
+      "altTexts": []
+    },
+    {
+      "slug": "google-ads-account-review",
+      "brandName": "Business Advertising Account",
+      "industry": "TBC",
+      "platform": "TBC",
+      "serviceType": [
+        "Google Ads"
+      ],
+      "problem": "A screenshot shows an advertising account suspension or policy-related status. The exact account context and resolution are unclear.",
+      "businessImpact": "TBC.",
+      "approach": [
+        "Reviewed the visible Google Ads account status.",
+        "The repository does not document the full remediation steps or a confirmed reinstatement."
+      ],
+      "result": "TBC — no confirmed reinstatement or performance outcome is established by the evidence.",
+      "metrics": [],
+      "images": [],
+      "imageNote": "TBC — account screenshots require redaction.",
+      "altTexts": []
+    },
+    {
+      "slug": "google-ads-campaign-check",
+      "brandName": "Online Advertising Campaign",
+      "industry": "TBC",
+      "platform": "TBC",
+      "serviceType": [
+        "Google Ads"
+      ],
+      "problem": "Campaign setup and performance overview screenshots are present. The intended optimization problem is not documented.",
+      "businessImpact": "One screenshot shows zero clicks and impressions for its displayed period; no broader impact can be inferred.",
+      "approach": [
+        "Reviewed the visible campaign setup and overview.",
+        "No documented optimization steps or testing notes were found."
+      ],
+      "result": "TBC — the screenshot is a limited account snapshot, not evidence of a completed optimization.",
+      "metrics": [
+        {
+          "label": "Clicks in displayed screenshot",
+          "value": "0"
+        },
+        {
+          "label": "Impressions in displayed screenshot",
+          "value": "0"
+        }
+      ],
+      "images": [],
+      "imageNote": "TBC — source screenshots require redaction.",
+      "altTexts": []
+    },
+    {
+      "slug": "merchant-center-product-approval",
+      "brandName": "Product-Based Retailer",
+      "industry": "E-commerce retail",
+      "platform": "TBC",
+      "serviceType": [
+        "GMC"
+      ],
+      "problem": "Merchant Center product approval and feed-status evidence is available, but the original issue and work performed are not clear enough to describe.",
+      "businessImpact": "TBC.",
+      "approach": [
+        "Reviewed product status and approval evidence.",
+        "The repository does not include a reliable record of the initial diagnosis or exact changes."
+      ],
+      "result": "One Merchant Center screenshot shows 212 approved products out of 213 total, with 1 under review. This is an account snapshot, not a claim of business growth.",
+      "metrics": [
+        {
+          "label": "Approved products in screenshot",
+          "value": "212"
+        },
+        {
+          "label": "Total products in screenshot",
+          "value": "213"
+        },
+        {
+          "label": "Products under review in screenshot",
+          "value": "1"
+        }
+      ],
+      "images": [],
+      "imageNote": "TBC — source screenshots require redaction.",
+      "altTexts": []
+    },
+    {
+      "slug": "large-product-catalog-approval",
+      "brandName": "Large-Catalog Retailer",
+      "industry": "E-commerce retail",
+      "platform": "TBC",
+      "serviceType": [
+        "GMC"
+      ],
+      "problem": "The Merchant Center screenshot shows a large product catalog and product-status breakdown. The original problem and intervention are not documented.",
+      "businessImpact": "TBC.",
+      "approach": [
+        "Reviewed the Merchant Center overview and product-status breakdown.",
+        "No documented remediation steps were found in the repository."
+      ],
+      "result": "A screenshot shows 1.48K approved products and zero not-approved or under-review products at the time shown. This is a snapshot only; no sales or revenue impact is documented.",
+      "metrics": [
+        {
+          "label": "Approved products in screenshot",
+          "value": "1.48K"
+        },
+        {
+          "label": "Not approved in screenshot",
+          "value": "0"
+        },
+        {
+          "label": "Under review in screenshot",
+          "value": "0"
+        }
+      ],
+      "images": [],
+      "imageNote": "TBC — source screenshots require redaction.",
+      "altTexts": []
+    }
+  ]
+}
