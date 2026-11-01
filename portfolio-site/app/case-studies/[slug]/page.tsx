@@ -1,3 +1,5 @@
+import SiteHeader from "@/app/components/site-header";
+import SiteFooter from "@/app/components/site-footer";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { caseStudies, getCaseStudy } from "@/lib/case-studies";
@@ -14,7 +16,7 @@ export async function generateMetadata({params}:{params:Promise<{slug:string}>})
 export default async function CaseStudyPage({params}:{params:Promise<{slug:string}>}) {
   const {slug}=await params; const study=getCaseStudy(slug); if(!study) notFound();
   return <main className="site-shell case-shell">
-    <header className="topbar"><Link className="wordmark" href="/">JAMES<span>.</span></Link><nav className="top-nav"><Link href="/case-studies">All case studies</Link><Link href="/contact">Contact</Link></nav><Link className="nav-cta" href="/contact">LET&apos;S TALK ↗</Link></header>
+    <SiteHeader />
     <article className="case-detail">
       <Link className="case-back" href="/case-studies">← ALL CASE STUDIES</Link>
       <p className="eyebrow">ANONYMIZED PROJECT · {study.serviceType.join(" / ")}</p>
@@ -27,6 +29,6 @@ export default async function CaseStudyPage({params}:{params:Promise<{slug:strin
       <section><h2>Project Evidence</h2><p>{study.imageNote || "No screenshots are currently attached."}</p>{study.images.length > 0 && <div className="case-evidence-grid">{study.images.map((src,i)=><figure className="case-evidence" key={src}><a href={src} target="_blank" rel="noreferrer"><img src={src} alt={study.altTexts[i] || `Project evidence screenshot ${i+1}`} loading="lazy" /></a><figcaption>{study.altTexts[i] || `Project evidence ${i+1}`}</figcaption></figure>)}</div>}</section>
       <section className="case-cta"><p className="eyebrow">NEED HELP WITH A SIMILAR ISSUE?</p><h2>Have a similar issue?</h2><p>Get a free audit and a clear view of the next steps.</p><Link className="primary-button" href="/contact">GET A FREE AUDIT ↗</Link></section>
     </article>
-    <footer className="footer"><Link className="wordmark" href="/">JAMES<span>.</span></Link><p>© {new Date().getFullYear()} James. All rights reserved.</p><Link href="/contact">CONTACT ↗</Link></footer>
+    <SiteFooter />
   </main>;
 }
