@@ -1,0 +1,22 @@
+[
+  {
+    "step": "01",
+    "title": "Audit",
+    "description": "I review your setup, identify issues and agree on the priorities with you."
+  },
+  {
+    "step": "02",
+    "title": "Fix",
+    "description": "I work through the agreed tasks and keep you informed as I go."
+  },
+  {
+    "step": "03",
+    "title": "Report",
+    "description": "You receive a clear summary of completed work, findings and next steps."
+  },
+  {
+    "step": "04",
+    "title": "Support",
+    "description": "I provide handover guidance and discuss any follow-up support you need."
+  }
+]
