@@ -74,6 +74,7 @@ export default function Home() {
         <nav className="top-nav" aria-label="Main navigation">
           <a href="#expertise">Expertise</a>
           <a href="#services">Services</a>
+          <a href="/portfolio">Portfolio</a>
           <a href="/case-studies">Case studies</a>
           <a href="/contact">Contact</a>
         </nav>
