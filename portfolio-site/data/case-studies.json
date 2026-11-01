@@ -1,5 +1,5 @@
 {
-  "disclaimer": "Client and brand names are anonymized. No original screenshots are displayed until safe redacted copies are prepared. Results are limited to figures or status statements visible in repository evidence; missing details are TBC.",
+  "disclaimer": "Case study names are anonymized in the written summaries. Evidence images are original screenshots from the project repository.",
   "caseStudies": [
     {
       "slug": "uk-fashion-retailer",
@@ -32,9 +32,43 @@
           "value": "36"
         }
       ],
-      "images": [],
-      "imageNote": "TBC — source screenshots require redaction before public display.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Approved%20feed%20Mayralondon.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Mayralondon%20Approved%20fix.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Mayralondon%20GMC%20ERROR.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Mayralondon%20No%20issue.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Mayralondon%20approved%20feed.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/choice%20wardrobe%20approved%20product%20feed.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/choice%20wardrobe%20fixed%20misrep.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/choice%20wardrobe%20misrep%20fixed.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/choice%20wordrobe%20bf.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/highsoo%20Approved%20Gmc%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/highsoo%20Approved%20Gmc.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/wILD%20POWER%20APPROVED%20gmc%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/wILD%20POWER%20APPROVED%20gmc.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/APPROVED%20G.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/APPROVED%20GMC.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/APPROVED%20GMC.jpg"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original GMC evidence screenshot: Approved feed Mayralondon",
+        "Original GMC evidence screenshot: Mayralondon Approved fix",
+        "Original GMC evidence screenshot: Mayralondon GMC ERROR",
+        "Original GMC evidence screenshot: Mayralondon No issue",
+        "Original GMC evidence screenshot: Mayralondon approved feed",
+        "Original GMC evidence screenshot: choice wardrobe approved product feed",
+        "Original GMC evidence screenshot: choice wardrobe fixed misrep",
+        "Original GMC evidence screenshot: choice wardrobe misrep fixed",
+        "Original GMC evidence screenshot: choice wordrobe bf",
+        "Original GMC evidence screenshot: highsoo Approved Gmc   Copy",
+        "Original GMC evidence screenshot: highsoo Approved Gmc",
+        "Original GMC evidence screenshot: wILD POWER APPROVED gmc   Copy",
+        "Original GMC evidence screenshot: wILD POWER APPROVED gmc",
+        "Original GMC evidence screenshot: APPROVED G",
+        "Original GMC evidence screenshot: APPROVED GMC",
+        "Original GMC evidence screenshot: APPROVED GMC"
+      ]
     },
     {
       "slug": "cycling-ecommerce-store",
@@ -53,9 +87,19 @@
       ],
       "result": "The repository includes later review and approved-feed screenshots. No independently verifiable approval count or business uplift is documented; TBC.",
       "metrics": [],
-      "images": [],
-      "imageNote": "TBC — source screenshots require redaction before public display.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/CICLO%20NEW%20REVIEW.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Ciclo%20approved%20feed.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Ciclo%20error%20dashboard.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/ciclo%20suspend%20GMC.PNG"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original GMC evidence screenshot: CICLO NEW REVIEW",
+        "Original GMC evidence screenshot: Ciclo approved feed",
+        "Original GMC evidence screenshot: Ciclo error dashboard",
+        "Original GMC evidence screenshot: ciclo suspend GMC"
+      ]
     },
     {
       "slug": "merchant-website-improvement",
@@ -75,9 +119,17 @@
       ],
       "result": "Google Merchant Center's email says the 'Website Improvement Needed' issue no longer appeared in the account after review. The later product screen states there were no products requiring attention.",
       "metrics": [],
-      "images": [],
-      "imageNote": "TBC — source screenshots include account identifiers and require redaction.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Edin%20london%20Email%20GMC.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Edin%20london%20fixed%20product%20feed.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Product%20issue%20fixed.JPG"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original GMC evidence screenshot: Edin london Email GMC",
+        "Original GMC evidence screenshot: Edin london fixed product feed",
+        "Original GMC evidence screenshot: Product issue fixed"
+      ]
     },
     {
       "slug": "home-and-lifestyle-store",
@@ -96,9 +148,25 @@
       ],
       "result": "A later screenshot is labeled as a fixed issue. The precise issue and measurable result are TBC.",
       "metrics": [],
-      "images": [],
-      "imageNote": "TBC — source screenshots require redaction before public display.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/BARRIER%20KING%20GMC2.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/barrier%20king%20gmc.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/smart%20furnishing%20store%20fixed%20issue.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/smart%20furnishing%20store%20GMC.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Smart%20furnishing%20store%20fixed%20issue.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Smart%20edge%20robotics%20GMC%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Smart%20edge%20robotics%20GMC.JPG"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original GMC evidence screenshot: BARRIER KING GMC2",
+        "Original GMC evidence screenshot: barrier king gmc",
+        "Original GMC evidence screenshot: smart furnishing store fixed issue",
+        "Original GMC evidence screenshot: smart furnishing store GMC",
+        "Original GMC evidence screenshot: Smart furnishing store fixed issue",
+        "Original GMC evidence screenshot: Smart edge robotics GMC   Copy",
+        "Original GMC evidence screenshot: Smart edge robotics GMC"
+      ]
     },
     {
       "slug": "travel-products-store",
@@ -117,9 +185,23 @@
       ],
       "result": "Files are labeled as errors solved and approved products. No supported numeric result is available; TBC.",
       "metrics": [],
-      "images": [],
-      "imageNote": "TBC — source screenshots require redaction before public display.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Mega%20tour%20approved%20product.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Megotour%20errors%20solved%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Megotour%20errors%20solved.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/megatour%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/megatour%20product%20errors%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Germany%20GMC.JPG"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original GMC evidence screenshot: Mega tour approved product",
+        "Original GMC evidence screenshot: Megotour errors solved   Copy",
+        "Original GMC evidence screenshot: Megotour errors solved",
+        "Original GMC evidence screenshot: megatour   Copy",
+        "Original GMC evidence screenshot: megatour product errors   Copy",
+        "Original GMC evidence screenshot: Germany GMC"
+      ]
     },
     {
       "slug": "online-wellbeing-business",
@@ -138,9 +220,23 @@
       ],
       "result": "Google's notification states the Business Profile is live on Google Search and Maps. No performance metrics are documented.",
       "metrics": [],
-      "images": [],
-      "imageNote": "TBC — source email screenshot contains identifying details and requires redaction.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/KOUAM%20APPROVED%20PRODUCT.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/KOUAM%20EMAILED%20FIX.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/KOUAM%20FIXED%20GMC.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/KOUAM%20VERIFIED%20GMB.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/GB.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/GBP%20approved.PNG"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original GMB evidence screenshot: KOUAM APPROVED PRODUCT",
+        "Original GMB evidence screenshot: KOUAM EMAILED FIX",
+        "Original GMB evidence screenshot: KOUAM FIXED GMC",
+        "Original GMB evidence screenshot: KOUAM VERIFIED GMB",
+        "Original GMB evidence screenshot: GB",
+        "Original GMB evidence screenshot: GBP approved"
+      ]
     },
     {
       "slug": "ga4-measurement-review",
@@ -158,9 +254,13 @@
       ],
       "result": "TBC — the screenshot alone does not prove a tracking fix or performance improvement.",
       "metrics": [],
-      "images": [],
-      "imageNote": "TBC — screenshot needs review and redaction before public display.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/ANALYTICS.JPG"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original GA4 evidence screenshot: ANALYTICS"
+      ]
     },
     {
       "slug": "google-ads-account-review",
@@ -178,9 +278,19 @@
       ],
       "result": "TBC — no confirmed reinstatement or performance outcome is established by the evidence.",
       "metrics": [],
-      "images": [],
-      "imageNote": "TBC — account screenshots require redaction.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/ADS%20ACCOUNT%20BIOPH.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/BIOPHY.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/AGD%20SEETUP.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/google%20ads%20savella.JPG"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original Google Ads evidence screenshot: ADS ACCOUNT BIOPH",
+        "Original Google Ads evidence screenshot: BIOPHY",
+        "Original Google Ads evidence screenshot: AGD SEETUP",
+        "Original Google Ads evidence screenshot: google ads savella"
+      ]
     },
     {
       "slug": "google-ads-campaign-check",
@@ -207,9 +317,15 @@
           "value": "0"
         }
       ],
-      "images": [],
-      "imageNote": "TBC — source screenshots require redaction.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Google%20ads%20the%20book.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/APP.JPG"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original Google Ads evidence screenshot: Google ads the book",
+        "Original Google Ads evidence screenshot: APP"
+      ]
     },
     {
       "slug": "merchant-center-product-approval",
@@ -240,9 +356,79 @@
           "value": "1"
         }
       ],
-      "images": [],
-      "imageNote": "TBC — source screenshots require redaction.",
-      "altTexts": []
+      "images": [
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/ABSPERKONG%20APPROVED%20GMC.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/ACW%20APPROVED%20GMC%202.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/ACW%20APPROVED%20GMC%203.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/ACW%20APPROVED.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/ACW%20approved%20Gmc.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/acw%20misrepresentation.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Firesub%20approved%20GMC.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/REAPPROVED%20GMC%20FIRESIDEHUB%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/REAPPROVED%20GMC%20FIRESIDEHUB.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Reviewed%20GMC%20firesidehub.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/fireside%20hub%20reapproved%20gmc.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/GEP%20APPROVED%20GMC.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/GSW%20PPROVEDA.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/GSW.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/SUCCESSFUL%20GMC%20APPROVED%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/SFS%20GMC.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/SAGA%20APPROVED%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/SAGA%20APPROVED.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/SAGA%20REVIEW%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/saga%20approved%20product%20feed%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/saga%20issue%20fixed%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/NEW%20SENSITIVE%20GMC%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/NEW%20SENSITIVE%20GMC.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/NK%20HERBAL%20GMC%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/PUZZLE%20BOOK%20Approved%20GMC%20FEED.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Puzzle%20book%20APPROVED%20GMC.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Puzzle%20boook%20GMC%20error.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Book%20pro%20all%20product%20approved.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/book%20pro%20approved.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/book%20proGMC.PNG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/itarti%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/itarti%20approved%20GMc%20-%20Copy.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/64ej.JPG",
+        "https://raw.githubusercontent.com/TEEJAY-PIXEL/James-Emmanuel/main/Approved%20variant.JPG"
+      ],
+      "imageNote": "Original repository evidence screenshots.",
+      "altTexts": [
+        "Original GMC evidence screenshot: ABSPERKONG APPROVED GMC",
+        "Original GMC evidence screenshot: ACW APPROVED GMC 2",
+        "Original GMC evidence screenshot: ACW APPROVED GMC 3",
+        "Original GMC evidence screenshot: ACW APPROVED",
+        "Original GMC evidence screenshot: ACW approved Gmc",
+        "Original GMC evidence screenshot: acw misrepresentation",
+        "Original GMC evidence screenshot: Firesub approved GMC",
+        "Original GMC evidence screenshot: REAPPROVED GMC FIRESIDEHUB   Copy",
+        "Original GMC evidence screenshot: REAPPROVED GMC FIRESIDEHUB",
+        "Original GMC evidence screenshot: Reviewed GMC firesidehub",
+        "Original GMC evidence screenshot: fireside hub reapproved gmc",
+        "Original GMC evidence screenshot: GEP APPROVED GMC",
+        "Original GMC evidence screenshot: GSW PPROVEDA",
+        "Original GMC evidence screenshot: GSW",
+        "Original GMC evidence screenshot: SUCCESSFUL GMC APPROVED   Copy",
+        "Original GMC evidence screenshot: SFS GMC",
+        "Original GMC evidence screenshot: SAGA APPROVED   Copy",
+        "Original GMC evidence screenshot: SAGA APPROVED",
+        "Original GMC evidence screenshot: SAGA REVIEW   Copy",
+        "Original GMC evidence screenshot: saga approved product feed   Copy",
+        "Original GMC evidence screenshot: saga issue fixed   Copy",
+        "Original GMC evidence screenshot: NEW SENSITIVE GMC   Copy",
+        "Original GMC evidence screenshot: NEW SENSITIVE GMC",
+        "Original GMC evidence screenshot: NK HERBAL GMC   Copy",
+        "Original GMC evidence screenshot: PUZZLE BOOK Approved GMC FEED",
+        "Original GMC evidence screenshot: Puzzle book APPROVED GMC",
+        "Original GMC evidence screenshot: Puzzle boook GMC error",
+        "Original GMC evidence screenshot: Book pro all product approved",
+        "Original GMC evidence screenshot: book pro approved",
+        "Original GMC evidence screenshot: book proGMC",
+        "Original GMC evidence screenshot: itarti   Copy",
+        "Original GMC evidence screenshot: itarti approved GMc   Copy",
+        "Original GMC evidence screenshot: 64ej",
+        "Original GMC evidence screenshot: Approved variant"
+      ]
     },
     {
       "slug": "large-product-catalog-approval",
