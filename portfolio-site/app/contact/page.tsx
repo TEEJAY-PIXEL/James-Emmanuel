@@ -1,3 +1,5 @@
+import SiteHeader from "@/app/components/site-header";
+import SiteFooter from "@/app/components/site-footer";
 const contactMethods = [
   { number: "01", name: "Email", detail: "For project inquiries, questions and detailed briefs.", action: "SEND AN EMAIL", href: "mailto:jamesmanuel966@gmail.com", external: false },
   { number: "02", name: "WhatsApp", detail: "Message me directly to discuss your project.", action: "CHAT ON WHATSAPP", href: "https://wa.me/message/E6ONVPYUJA2TK1", external: true },
@@ -9,15 +11,7 @@ const contactMethods = [
 export default function ContactPage() {
   return (
     <main className="site-shell contact-page" id="top">
-      <header className="topbar">
-        <a className="wordmark" href="/" aria-label="James home">JAMES<span>.</span></a>
-        <nav className="top-nav" aria-label="Main navigation">
-          <a href="/#expertise">Expertise</a>
-          <a href="/#services">Services</a>
-          <a href="/contact" aria-current="page">Contact</a>
-        </nav>
-        <a className="nav-cta" href="mailto:jamesmanuel966@gmail.com">EMAIL ME <span aria-hidden="true">↗</span></a>
-      </header>
+      <SiteHeader />
 
       <section className="contact-hero">
         <p className="eyebrow">LET&apos;S CONNECT</p>
@@ -49,11 +43,7 @@ export default function ContactPage() {
         <a className="primary-button" href="mailto:jamesmanuel966@gmail.com">WRITE TO ME <span aria-hidden="true">↗</span></a>
       </section>
 
-      <footer className="footer">
-        <a className="wordmark" href="/">JAMES<span>.</span></a>
-        <p>© {new Date().getFullYear()} James. All rights reserved.</p>
-        <a href="#top">BACK TO TOP ↑</a>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }
