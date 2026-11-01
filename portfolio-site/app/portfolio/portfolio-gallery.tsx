@@ -7,7 +7,7 @@ type Media = { filePath: string; type: "image" | "video" | "pdf"; caption: strin
 type Business = { slug: string; businessName: string; industry: string; services: string[]; description: string; media: Media[]; result: string; featured: boolean };
 const filters = ["All", "GMC", "GMB", "GA4", "GTM", "Google Ads"];
 
-export default function PortfolioGallery({ businesses }: { businesses: Business[] }) {
+export default function PortfolioGallery({ businesses, caseStudySlugs }: { businesses: Business[]; caseStudySlugs: string[] }) {
   const [active, setActive] = useState("All");
   const [lightbox, setLightbox] = useState<{src:string;alt:string;caption:string}|null>(null);
   const visible = useMemo(() => active === "All" ? businesses : businesses.filter(b => b.services.includes(active)), [active,businesses]);
@@ -26,7 +26,7 @@ export default function PortfolioGallery({ businesses }: { businesses: Business[
             <span className="portfolio-image-frame"><Image src={media.watermarkedPath} alt={media.altText} fill sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 33vw" className="portfolio-image" draggable={false} onContextMenu={e=>e.preventDefault()} /></span><span className="portfolio-caption">{media.caption}</span>
           </button> : <div className="portfolio-media-placeholder" key={media.filePath}>{media.caption} — TBC</div>)}
         </div>
-        <div className="portfolio-business-bottom"><p><strong>Recorded result:</strong> {business.result}</p><a href={`/case-studies/${business.slug}`}>View full case study ↗</a></div>
+        <div className="portfolio-business-bottom"><p><strong>Recorded result:</strong> {business.result}</p>{caseStudySlugs.includes(business.slug) && <a href={`/case-studies/${business.slug}`}>View full case study ↗</a>}</div>
       </section>)}
     </div>
     {lightbox && <div className="portfolio-lightbox" role="dialog" aria-modal="true" aria-label={lightbox.caption} onClick={()=>setLightbox(null)} onContextMenu={e=>e.preventDefault()}>
