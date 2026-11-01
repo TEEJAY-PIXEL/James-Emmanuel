@@ -1,0 +1,79 @@
+{
+  "title": "Simple, Transparent Packages",
+  "subtitle": "A clear starting point for your next digital project. Final scope and pricing are agreed before work begins.",
+  "packages": [
+    {
+      "name": "Audit",
+      "price": "[PRICE]",
+      "audience": "For businesses that want a clearer picture of account, tracking or store issues.",
+      "items": [
+        "Review of the agreed platform and setup",
+        "Identify and prioritize key issues",
+        "Practical recommendations",
+        "Short findings summary"
+      ],
+      "turnaround": "[TURNAROUND]",
+      "cta": "REQUEST AN AUDIT",
+      "href": "/#free-audit",
+      "popular": false
+    },
+    {
+      "name": "Setup",
+      "price": "[PRICE]",
+      "audience": "For businesses that need a platform configured, improved or implemented.",
+      "items": [
+        "Initial requirements and access review",
+        "Agreed setup or optimization tasks",
+        "Testing and quality checks",
+        "Handover notes and next steps"
+      ],
+      "turnaround": "[TURNAROUND]",
+      "cta": "DISCUSS A SETUP",
+      "href": "/contact",
+      "popular": true
+    },
+    {
+      "name": "Monthly Support",
+      "price": "[PRICE]",
+      "audience": "For businesses that need ongoing help with their digital tools and operations.",
+      "items": [
+        "Agreed monthly task allowance",
+        "Routine checks and troubleshooting",
+        "Progress updates",
+        "Monthly summary and recommendations"
+      ],
+      "turnaround": "[SCHEDULE]",
+      "cta": "DISCUSS SUPPORT",
+      "href": "/contact",
+      "popular": false
+    }
+  ],
+  "customProjects": "Need something different? Let's talk.",
+  "comparison": [
+    {
+      "feature": "Initial review",
+      "audit": "Included",
+      "setup": "Included",
+      "monthly": "As agreed"
+    },
+    {
+      "feature": "Implementation",
+      "audit": "Recommendations",
+      "setup": "Included",
+      "monthly": "As agreed"
+    },
+    {
+      "feature": "Testing and handover",
+      "audit": "Findings summary",
+      "setup": "Included",
+      "monthly": "Ongoing"
+    },
+    {
+      "feature": "Ongoing support",
+      "audit": "Not included",
+      "setup": "Optional",
+      "monthly": "Included"
+    }
+  ],
+  "note": "Prices vary by store size, platform, scope and complexity. A final quote is provided after the requirements are understood."
+}
