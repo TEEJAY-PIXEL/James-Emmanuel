@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import CookieConsent from "./components/cookie-consent";
 
 export const metadata: Metadata = {
   title: "James | E-commerce & Analytics Specialist",
@@ -14,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>{children}<CookieConsent /></body>
     </html>
   );
 }
