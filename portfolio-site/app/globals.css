@@ -201,3 +201,48 @@ a { color: inherit; text-decoration: none; }
 .portfolio-lightbox-content p{position:absolute;left:0;bottom:-28px;color:#fff;font-size:11px}
 @media(max-width:760px){.portfolio-business-heading{flex-direction:column}.portfolio-tags{justify-content:flex-start}.portfolio-media-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.portfolio-business-bottom{align-items:flex-start;flex-direction:column}.portfolio-cta{align-items:flex-start;flex-direction:column;padding:26px 21px}}
 @media(max-width:480px){.portfolio-business{padding:17px}.portfolio-media-grid{grid-template-columns:1fr}.portfolio-hero{margin:55px auto 30px}.portfolio-hero h1{letter-spacing:-1.8px}.portfolio-lightbox{padding:12px}.portfolio-lightbox-content{width:96vw;height:72vh}}
+
+
+/* Homepage content sections */
+.home-content-section{padding:72px 0;border-top:1px solid var(--line)}
+.home-section-heading{max-width:720px;margin:0 0 28px}
+.home-section-heading h2,.about-page h1{margin:0;font:800 clamp(28px,4vw,42px)/1.12 "Manrope",sans-serif;letter-spacing:-1.6px}
+.home-section-heading>p:last-child{color:var(--muted);font-size:13px;line-height:1.8}
+.about-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:34px;align-items:center}
+.about-photo{position:relative;width:100%;max-width:280px;height:330px;overflow:hidden;border-radius:140px 140px 10px 10px;background:#eee}
+.about-photo img{object-fit:cover;object-position:center 25%}
+.about-copy h3,.about-copy h2{margin:20px 0 7px;font:800 16px "Manrope",sans-serif}
+.about-copy p,.about-copy li{color:#666;font-size:13px;line-height:1.8}
+.about-tags{display:flex;flex-wrap:wrap;gap:8px}
+.about-tags span{padding:8px 11px;border:1px solid #e5e5e5;border-radius:3px;font-size:11px}
+.trust-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0}
+.trust-stats>div{display:flex;flex-direction:column;gap:7px;padding:18px;border:1px solid var(--line);border-radius:6px}
+.trust-stats strong{font:800 22px "Manrope",sans-serif}
+.trust-stats span{color:#666;font-size:11px}
+.text-link,.profile-links a{display:inline-block;margin:8px 18px 0 0;font-size:10px;font-weight:800;letter-spacing:.6px;border-bottom:1px solid #222;padding-bottom:4px}
+.testimonial-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.testimonial-card{padding:22px;border:1px solid var(--line);border-radius:7px}
+.testimonial-card p{color:#555;font-size:13px;line-height:1.8}
+.testimonial-card strong,.testimonial-card small{display:block;margin-top:8px}
+.testimonial-card small{color:#777;font-size:10px}
+.verified-badge{display:inline-block;padding:7px 9px;border-radius:3px;background:#f2f2f0;font-size:10px;font-weight:800}
+.process-timeline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.process-timeline article{padding:20px;border-top:2px solid #222;background:#f8f8f6}
+.process-timeline article>span{font-size:10px;color:#777;font-weight:800}
+.process-timeline h3{font:800 19px "Manrope",sans-serif;margin:13px 0 7px}
+.process-timeline p,.faq-list details p{font-size:12px;line-height:1.8;color:#666}
+.faq-list details{padding:18px 0;border-bottom:1px solid var(--line)}
+.faq-list summary{font:700 14px "Manrope",sans-serif;cursor:pointer}
+.faq-list details p{max-width:850px;margin:12px 0 0}
+.free-audit-section{display:grid;grid-template-columns:1fr 1fr;gap:38px;padding:36px;margin:55px 0 70px;border-radius:8px;background:#f4f4f2}
+.free-audit-section h2{font:800 clamp(27px,3.5vw,38px)/1.12 "Manrope",sans-serif;letter-spacing:-1.2px;margin:0}
+.free-audit-section p{font-size:13px;line-height:1.8;color:#666}
+.audit-deliverable{font-weight:700}
+.audit-form{display:grid;gap:12px}
+.audit-form label{display:grid;gap:6px;font-size:11px;font-weight:700}
+.audit-form input,.audit-form select,.audit-form textarea{width:100%;padding:11px;border:1px solid #ddd;border-radius:4px;background:#fff;font:13px "DM Sans",sans-serif}
+.audit-form .audit-consent{display:flex;align-items:flex-start;flex-direction:row;gap:8px;font-weight:500;line-height:1.6}
+.audit-consent input{width:auto;margin-top:3px}
+.audit-consent a{text-decoration:underline}
+.audit-honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+@media(max-width:700px){.about-layout,.free-audit-section{grid-template-columns:1fr}.about-photo{margin:auto}.process-timeline{grid-template-columns:1fr}.testimonial-grid{grid-template-columns:1fr}.trust-stats{grid-template-columns:1fr}.free-audit-section{padding:24px 19px}}
