@@ -1,0 +1,834 @@
+{
+  "updatedAt": "2026-11-01",
+  "watermark": "James_web",
+  "businesses": [
+    {
+      "slug": "mayra-london",
+      "businessName": "Mayra London",
+      "industry": "Fashion / E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Reviewed Merchant Center misrepresentation and product-feed issues, then checked the subsequent review and approval states.",
+      "media": [
+        {
+          "filePath": "../Mayra london misrep error.PNG",
+          "type": "image",
+          "caption": "Mayra london misrep error",
+          "altText": "Project evidence for Mayra London: Mayra london misrep error",
+          "watermarkedPath": "/portfolio-watermarked/Mayra%20london%20misrep%20error.webp"
+        },
+        {
+          "filePath": "../Mayralondon GMC ERROR.PNG",
+          "type": "image",
+          "caption": "Mayralondon GMC ERROR",
+          "altText": "Project evidence for Mayra London: Mayralondon GMC ERROR",
+          "watermarkedPath": "/portfolio-watermarked/Mayralondon%20GMC%20ERROR.webp"
+        },
+        {
+          "filePath": "../Mayralondon Approved fix.PNG",
+          "type": "image",
+          "caption": "Mayralondon Approved fix",
+          "altText": "Project evidence for Mayra London: Mayralondon Approved fix",
+          "watermarkedPath": "/portfolio-watermarked/Mayralondon%20Approved%20fix.webp"
+        },
+        {
+          "filePath": "../Mayralondon No issue.PNG",
+          "type": "image",
+          "caption": "Mayralondon No issue",
+          "altText": "Project evidence for Mayra London: Mayralondon No issue",
+          "watermarkedPath": "/portfolio-watermarked/Mayralondon%20No%20issue.webp"
+        },
+        {
+          "filePath": "../Mayralondon approved feed.PNG",
+          "type": "image",
+          "caption": "Mayralondon approved feed",
+          "altText": "Project evidence for Mayra London: Mayralondon approved feed",
+          "watermarkedPath": "/portfolio-watermarked/Mayralondon%20approved%20feed.webp"
+        },
+        {
+          "filePath": "../Approved feed Mayralondon.PNG",
+          "type": "image",
+          "caption": "Approved feed Mayralondon",
+          "altText": "Project evidence for Mayra London: Approved feed Mayralondon",
+          "watermarkedPath": "/portfolio-watermarked/Approved%20feed%20Mayralondon.webp"
+        }
+      ],
+      "result": "The repository includes later screenshots labeled approved and no issue. No sales or revenue impact is documented.",
+      "featured": true
+    },
+    {
+      "slug": "choice-wardrobe",
+      "businessName": "Choice Wardrobe",
+      "industry": "Fashion / E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Worked on Merchant Center misrepresentation and product-feed issues.",
+      "media": [
+        {
+          "filePath": "../choice wordrobe bf.JPG",
+          "type": "image",
+          "caption": "choice wordrobe bf",
+          "altText": "Project evidence for Choice Wardrobe: choice wordrobe bf",
+          "watermarkedPath": "/portfolio-watermarked/choice%20wordrobe%20bf.webp"
+        },
+        {
+          "filePath": "../choice wardrobe fixed misrep.JPG",
+          "type": "image",
+          "caption": "choice wardrobe fixed misrep",
+          "altText": "Project evidence for Choice Wardrobe: choice wardrobe fixed misrep",
+          "watermarkedPath": "/portfolio-watermarked/choice%20wardrobe%20fixed%20misrep.webp"
+        },
+        {
+          "filePath": "../choice wardrobe misrep fixed.JPG",
+          "type": "image",
+          "caption": "choice wardrobe misrep fixed",
+          "altText": "Project evidence for Choice Wardrobe: choice wardrobe misrep fixed",
+          "watermarkedPath": "/portfolio-watermarked/choice%20wardrobe%20misrep%20fixed.webp"
+        },
+        {
+          "filePath": "../choice wardrobe approved product feed.JPG",
+          "type": "image",
+          "caption": "choice wardrobe approved product feed",
+          "altText": "Project evidence for Choice Wardrobe: choice wardrobe approved product feed",
+          "watermarkedPath": "/portfolio-watermarked/choice%20wardrobe%20approved%20product%20feed.webp"
+        }
+      ],
+      "result": "The filenames indicate a before state, a fixed misrepresentation state, and an approved product feed. No commercial impact is documented.",
+      "featured": true
+    },
+    {
+      "slug": "highsoo",
+      "businessName": "Highsoo",
+      "industry": "E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Merchant Center product approval evidence is available in the repository.",
+      "media": [
+        {
+          "filePath": "../highsoo Approved Gmc.JPG",
+          "type": "image",
+          "caption": "highsoo Approved Gmc",
+          "altText": "Project evidence for Highsoo: highsoo Approved Gmc",
+          "watermarkedPath": "/portfolio-watermarked/highsoo%20Approved%20Gmc.webp"
+        }
+      ],
+      "result": "The evidence filename indicates approved Merchant Center products. No quantified outcome is documented.",
+      "featured": false
+    },
+    {
+      "slug": "wild-power",
+      "businessName": "Wild Power",
+      "industry": "E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Merchant Center product approval evidence is available in the repository.",
+      "media": [
+        {
+          "filePath": "../wILD POWER APPROVED gmc.JPG",
+          "type": "image",
+          "caption": "wILD POWER APPROVED gmc",
+          "altText": "Project evidence for Wild Power: wILD POWER APPROVED gmc",
+          "watermarkedPath": "/portfolio-watermarked/wILD%20POWER%20APPROVED%20gmc.webp"
+        }
+      ],
+      "result": "The evidence filename indicates approved Merchant Center products. No quantified outcome is documented.",
+      "featured": false
+    },
+    {
+      "slug": "ciclo",
+      "businessName": "Ciclo",
+      "industry": "E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Reviewed Merchant Center suspension and product-error evidence, with later review and approved-feed screenshots.",
+      "media": [
+        {
+          "filePath": "../ciclo suspend GMC.PNG",
+          "type": "image",
+          "caption": "ciclo suspend GMC",
+          "altText": "Project evidence for Ciclo: ciclo suspend GMC",
+          "watermarkedPath": "/portfolio-watermarked/ciclo%20suspend%20GMC.webp"
+        },
+        {
+          "filePath": "../Ciclo error dashboard.PNG",
+          "type": "image",
+          "caption": "Ciclo error dashboard",
+          "altText": "Project evidence for Ciclo: Ciclo error dashboard",
+          "watermarkedPath": "/portfolio-watermarked/Ciclo%20error%20dashboard.webp"
+        },
+        {
+          "filePath": "../CICLO NEW REVIEW.PNG",
+          "type": "image",
+          "caption": "CICLO NEW REVIEW",
+          "altText": "Project evidence for Ciclo: CICLO NEW REVIEW",
+          "watermarkedPath": "/portfolio-watermarked/CICLO%20NEW%20REVIEW.webp"
+        },
+        {
+          "filePath": "../Ciclo approved feed.PNG",
+          "type": "image",
+          "caption": "Ciclo approved feed",
+          "altText": "Project evidence for Ciclo: Ciclo approved feed",
+          "watermarkedPath": "/portfolio-watermarked/Ciclo%20approved%20feed.webp"
+        }
+      ],
+      "result": "A later file is labeled as an approved feed. The exact remediation steps and business impact are not documented.",
+      "featured": true
+    },
+    {
+      "slug": "edin-london",
+      "businessName": "Edin London",
+      "industry": "E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Reviewed a Merchant Center website-improvement notice and subsequent product-feed status.",
+      "media": [
+        {
+          "filePath": "../Edin london Email GMC.PNG",
+          "type": "image",
+          "caption": "Edin london Email GMC",
+          "altText": "Project evidence for Edin London: Edin london Email GMC",
+          "watermarkedPath": "/portfolio-watermarked/Edin%20london%20Email%20GMC.webp"
+        },
+        {
+          "filePath": "../Edin london fixed product feed.PNG",
+          "type": "image",
+          "caption": "Edin london fixed product feed",
+          "altText": "Project evidence for Edin London: Edin london fixed product feed",
+          "watermarkedPath": "/portfolio-watermarked/Edin%20london%20fixed%20product%20feed.webp"
+        }
+      ],
+      "result": "The available evidence was previously described as a Google notice that the website-improvement issue no longer appeared. The email screenshot needs review before public use.",
+      "featured": false
+    },
+    {
+      "slug": "barrier-king",
+      "businessName": "Barrier King",
+      "industry": "Home / E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Merchant Center product-status evidence is available for this store.",
+      "media": [
+        {
+          "filePath": "../barrier king gmc.JPG",
+          "type": "image",
+          "caption": "barrier king gmc",
+          "altText": "Project evidence for Barrier King: barrier king gmc",
+          "watermarkedPath": "/portfolio-watermarked/barrier%20king%20gmc.webp"
+        },
+        {
+          "filePath": "../BARRIER KING GMC2.JPG",
+          "type": "image",
+          "caption": "BARRIER KING GMC2",
+          "altText": "Project evidence for Barrier King: BARRIER KING GMC2",
+          "watermarkedPath": "/portfolio-watermarked/BARRIER%20KING%20GMC2.webp"
+        }
+      ],
+      "result": "TBC — the screenshots do not establish a specific fix or quantified outcome.",
+      "featured": false
+    },
+    {
+      "slug": "smart-furnishing-store",
+      "businessName": "Smart Furnishing Store",
+      "industry": "Home furnishings",
+      "services": [
+        "GMC"
+      ],
+      "description": "Reviewed Merchant Center account evidence and a later screenshot labeled as a fixed issue.",
+      "media": [
+        {
+          "filePath": "../smart furnishing store GMC.PNG",
+          "type": "image",
+          "caption": "smart furnishing store GMC",
+          "altText": "Project evidence for Smart Furnishing Store: smart furnishing store GMC",
+          "watermarkedPath": "/portfolio-watermarked/smart%20furnishing%20store%20GMC.webp"
+        },
+        {
+          "filePath": "../smart furnishing store fixed issue.PNG",
+          "type": "image",
+          "caption": "smart furnishing store fixed issue",
+          "altText": "Project evidence for Smart Furnishing Store: smart furnishing store fixed issue",
+          "watermarkedPath": "/portfolio-watermarked/smart%20furnishing%20store%20fixed%20issue.webp"
+        }
+      ],
+      "result": "A later screenshot is labeled as a fixed issue; the exact issue and measurable outcome are TBC.",
+      "featured": true
+    },
+    {
+      "slug": "smart-edge-robotics",
+      "businessName": "Smart Edge Robotics",
+      "industry": "Technology / E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Merchant Center account and product-status evidence is available.",
+      "media": [
+        {
+          "filePath": "../Smart edge robotics GMC.JPG",
+          "type": "image",
+          "caption": "Smart edge robotics GMC",
+          "altText": "Project evidence for Smart Edge Robotics: Smart edge robotics GMC",
+          "watermarkedPath": "/portfolio-watermarked/Smart%20edge%20robotics%20GMC.webp"
+        }
+      ],
+      "result": "TBC — no specific remediation or measurable result is established by the filenames.",
+      "featured": false
+    },
+    {
+      "slug": "megatour",
+      "businessName": "MegaTour",
+      "industry": "Travel / E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Reviewed Merchant Center product errors and later product approval evidence.",
+      "media": [
+        {
+          "filePath": "../megatour - Copy.JPG",
+          "type": "image",
+          "caption": "megatour   Copy",
+          "altText": "Project evidence for MegaTour: megatour   Copy",
+          "watermarkedPath": "/portfolio-watermarked/megatour%20-%20Copy.webp"
+        },
+        {
+          "filePath": "../megatour product errors - Copy.JPG",
+          "type": "image",
+          "caption": "megatour product errors   Copy",
+          "altText": "Project evidence for MegaTour: megatour product errors   Copy",
+          "watermarkedPath": "/portfolio-watermarked/megatour%20product%20errors%20-%20Copy.webp"
+        },
+        {
+          "filePath": "../Megotour errors solved.JPG",
+          "type": "image",
+          "caption": "Megotour errors solved",
+          "altText": "Project evidence for MegaTour: Megotour errors solved",
+          "watermarkedPath": "/portfolio-watermarked/Megotour%20errors%20solved.webp"
+        },
+        {
+          "filePath": "../Mega tour approved product.JPG",
+          "type": "image",
+          "caption": "Mega tour approved product",
+          "altText": "Project evidence for MegaTour: Mega tour approved product",
+          "watermarkedPath": "/portfolio-watermarked/Mega%20tour%20approved%20product.webp"
+        },
+        {
+          "filePath": "../Germany GMC.JPG",
+          "type": "image",
+          "caption": "Germany GMC",
+          "altText": "Project evidence for MegaTour: Germany GMC",
+          "watermarkedPath": "/portfolio-watermarked/Germany%20GMC.webp"
+        }
+      ],
+      "result": "The filenames indicate product errors solved and approved products. No quantified commercial result is documented.",
+      "featured": true
+    },
+    {
+      "slug": "kouam-business",
+      "businessName": "Kouam Business",
+      "industry": "TBC",
+      "services": [
+        "GMC",
+        "GMB"
+      ],
+      "description": "Repository evidence covers Merchant Center product status and Google Business Profile verification.",
+      "media": [
+        {
+          "filePath": "../KOUAM APPROVED PRODUCT.JPG",
+          "type": "image",
+          "caption": "KOUAM APPROVED PRODUCT",
+          "altText": "Project evidence for Kouam Business: KOUAM APPROVED PRODUCT",
+          "watermarkedPath": "/portfolio-watermarked/KOUAM%20APPROVED%20PRODUCT.webp"
+        },
+        {
+          "filePath": "../KOUAM EMAILED FIX.JPG",
+          "type": "image",
+          "caption": "KOUAM EMAILED FIX",
+          "altText": "Project evidence for Kouam Business: KOUAM EMAILED FIX",
+          "watermarkedPath": "/portfolio-watermarked/KOUAM%20EMAILED%20FIX.webp"
+        },
+        {
+          "filePath": "../KOUAM FIXED GMC.JPG",
+          "type": "image",
+          "caption": "KOUAM FIXED GMC",
+          "altText": "Project evidence for Kouam Business: KOUAM FIXED GMC",
+          "watermarkedPath": "/portfolio-watermarked/KOUAM%20FIXED%20GMC.webp"
+        },
+        {
+          "filePath": "../KOUAM VERIFIED GMB.JPG",
+          "type": "image",
+          "caption": "KOUAM VERIFIED GMB",
+          "altText": "Project evidence for Kouam Business: KOUAM VERIFIED GMB",
+          "watermarkedPath": "/portfolio-watermarked/KOUAM%20VERIFIED%20GMB.webp"
+        }
+      ],
+      "result": "The GMB screenshot filename indicates verification; Merchant Center files indicate product fixes/approval. No performance metrics are documented.",
+      "featured": true
+    },
+    {
+      "slug": "firesidehub",
+      "businessName": "FiresideHub",
+      "industry": "Home / E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Reviewed Merchant Center status and subsequent reapproval evidence.",
+      "media": [
+        {
+          "filePath": "../Reviewed GMC firesidehub.JPG",
+          "type": "image",
+          "caption": "Reviewed GMC firesidehub",
+          "altText": "Project evidence for FiresideHub: Reviewed GMC firesidehub",
+          "watermarkedPath": "/portfolio-watermarked/Reviewed%20GMC%20firesidehub.webp"
+        },
+        {
+          "filePath": "../REAPPROVED GMC FIRESIDEHUB.JPG",
+          "type": "image",
+          "caption": "REAPPROVED GMC FIRESIDEHUB",
+          "altText": "Project evidence for FiresideHub: REAPPROVED GMC FIRESIDEHUB",
+          "watermarkedPath": "/portfolio-watermarked/REAPPROVED%20GMC%20FIRESIDEHUB.webp"
+        },
+        {
+          "filePath": "../fireside hub reapproved gmc.JPG",
+          "type": "image",
+          "caption": "fireside hub reapproved gmc",
+          "altText": "Project evidence for FiresideHub: fireside hub reapproved gmc",
+          "watermarkedPath": "/portfolio-watermarked/fireside%20hub%20reapproved%20gmc.webp"
+        },
+        {
+          "filePath": "../Firesub approved GMC.JPG",
+          "type": "image",
+          "caption": "Firesub approved GMC",
+          "altText": "Project evidence for FiresideHub: Firesub approved GMC",
+          "watermarkedPath": "/portfolio-watermarked/Firesub%20approved%20GMC.webp"
+        }
+      ],
+      "result": "The filenames indicate reapproval. No commercial impact is documented.",
+      "featured": true
+    },
+    {
+      "slug": "saga",
+      "businessName": "SAGA",
+      "industry": "E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Reviewed Merchant Center product-feed issues and later approval evidence.",
+      "media": [
+        {
+          "filePath": "../SAGA REVIEW - Copy.JPG",
+          "type": "image",
+          "caption": "SAGA REVIEW   Copy",
+          "altText": "Project evidence for SAGA: SAGA REVIEW   Copy",
+          "watermarkedPath": "/portfolio-watermarked/SAGA%20REVIEW%20-%20Copy.webp"
+        },
+        {
+          "filePath": "../SAGA APPROVED.JPG",
+          "type": "image",
+          "caption": "SAGA APPROVED",
+          "altText": "Project evidence for SAGA: SAGA APPROVED",
+          "watermarkedPath": "/portfolio-watermarked/SAGA%20APPROVED.webp"
+        },
+        {
+          "filePath": "../saga approved product feed - Copy.JPG",
+          "type": "image",
+          "caption": "saga approved product feed   Copy",
+          "altText": "Project evidence for SAGA: saga approved product feed   Copy",
+          "watermarkedPath": "/portfolio-watermarked/saga%20approved%20product%20feed%20-%20Copy.webp"
+        },
+        {
+          "filePath": "../saga issue fixed - Copy.JPG",
+          "type": "image",
+          "caption": "saga issue fixed   Copy",
+          "altText": "Project evidence for SAGA: saga issue fixed   Copy",
+          "watermarkedPath": "/portfolio-watermarked/saga%20issue%20fixed%20-%20Copy.webp"
+        }
+      ],
+      "result": "The filenames indicate a reviewed state, a fixed issue, and approved product-feed evidence. No quantified outcome is documented.",
+      "featured": true
+    },
+    {
+      "slug": "all-caribbean-wrestling",
+      "businessName": "All Caribbean Wrestling",
+      "industry": "Sports merchandise / E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Worked on Merchant Center misrepresentation evidence and subsequent approval states.",
+      "media": [
+        {
+          "filePath": "../acw misrepresentation.JPG",
+          "type": "image",
+          "caption": "acw misrepresentation",
+          "altText": "Project evidence for All Caribbean Wrestling: acw misrepresentation",
+          "watermarkedPath": "/portfolio-watermarked/acw%20misrepresentation.webp"
+        },
+        {
+          "filePath": "../ACW APPROVED.JPG",
+          "type": "image",
+          "caption": "ACW APPROVED",
+          "altText": "Project evidence for All Caribbean Wrestling: ACW APPROVED",
+          "watermarkedPath": "/portfolio-watermarked/ACW%20APPROVED.webp"
+        },
+        {
+          "filePath": "../ACW approved Gmc.JPG",
+          "type": "image",
+          "caption": "ACW approved Gmc",
+          "altText": "Project evidence for All Caribbean Wrestling: ACW approved Gmc",
+          "watermarkedPath": "/portfolio-watermarked/ACW%20approved%20Gmc.webp"
+        },
+        {
+          "filePath": "../ACW APPROVED GMC 2.JPG",
+          "type": "image",
+          "caption": "ACW APPROVED GMC 2",
+          "altText": "Project evidence for All Caribbean Wrestling: ACW APPROVED GMC 2",
+          "watermarkedPath": "/portfolio-watermarked/ACW%20APPROVED%20GMC%202.webp"
+        },
+        {
+          "filePath": "../ACW APPROVED GMC 3.JPG",
+          "type": "image",
+          "caption": "ACW APPROVED GMC 3",
+          "altText": "Project evidence for All Caribbean Wrestling: ACW APPROVED GMC 3",
+          "watermarkedPath": "/portfolio-watermarked/ACW%20APPROVED%20GMC%203.webp"
+        }
+      ],
+      "result": "The filenames indicate approval after a misrepresentation issue. No sales or revenue impact is documented.",
+      "featured": true
+    },
+    {
+      "slug": "book-pro",
+      "businessName": "The Book Pro",
+      "industry": "Books / E-commerce",
+      "services": [
+        "GMC",
+        "Google Ads"
+      ],
+      "description": "Repository evidence includes Merchant Center product approval and a separate Google Ads account screenshot.",
+      "media": [
+        {
+          "filePath": "../book proGMC.PNG",
+          "type": "image",
+          "caption": "book proGMC",
+          "altText": "Project evidence for The Book Pro: book proGMC",
+          "watermarkedPath": "/portfolio-watermarked/book%20proGMC.webp"
+        },
+        {
+          "filePath": "../book pro approved.PNG",
+          "type": "image",
+          "caption": "book pro approved",
+          "altText": "Project evidence for The Book Pro: book pro approved",
+          "watermarkedPath": "/portfolio-watermarked/book%20pro%20approved.webp"
+        },
+        {
+          "filePath": "../Book pro all product approved.PNG",
+          "type": "image",
+          "caption": "Book pro all product approved",
+          "altText": "Project evidence for The Book Pro: Book pro all product approved",
+          "watermarkedPath": "/portfolio-watermarked/Book%20pro%20all%20product%20approved.webp"
+        },
+        {
+          "filePath": "../Google ads the book.PNG",
+          "type": "image",
+          "caption": "Google ads the book",
+          "altText": "Project evidence for The Book Pro: Google ads the book",
+          "watermarkedPath": "/portfolio-watermarked/Google%20ads%20the%20book.webp"
+        }
+      ],
+      "result": "The Merchant Center filenames indicate product approval. The Google Ads screenshot does not establish a campaign outcome.",
+      "featured": true
+    },
+    {
+      "slug": "puzzle-book",
+      "businessName": "Puzzle Book",
+      "industry": "Books / E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Reviewed Merchant Center product errors and later approved product-feed evidence.",
+      "media": [
+        {
+          "filePath": "../Puzzle boook GMC error.PNG",
+          "type": "image",
+          "caption": "Puzzle boook GMC error",
+          "altText": "Project evidence for Puzzle Book: Puzzle boook GMC error",
+          "watermarkedPath": "/portfolio-watermarked/Puzzle%20boook%20GMC%20error.webp"
+        },
+        {
+          "filePath": "../Puzzle book APPROVED GMC.PNG",
+          "type": "image",
+          "caption": "Puzzle book APPROVED GMC",
+          "altText": "Project evidence for Puzzle Book: Puzzle book APPROVED GMC",
+          "watermarkedPath": "/portfolio-watermarked/Puzzle%20book%20APPROVED%20GMC.webp"
+        },
+        {
+          "filePath": "../PUZZLE BOOK Approved GMC FEED.PNG",
+          "type": "image",
+          "caption": "PUZZLE BOOK Approved GMC FEED",
+          "altText": "Project evidence for Puzzle Book: PUZZLE BOOK Approved GMC FEED",
+          "watermarkedPath": "/portfolio-watermarked/PUZZLE%20BOOK%20Approved%20GMC%20FEED.webp"
+        }
+      ],
+      "result": "The filenames indicate product approval after product-error evidence. No commercial impact is documented.",
+      "featured": true
+    },
+    {
+      "slug": "sensitive-stones",
+      "businessName": "Sensitive Stones",
+      "industry": "E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Merchant Center account evidence is available for this store.",
+      "media": [
+        {
+          "filePath": "../NEW SENSITIVE GMC.JPG",
+          "type": "image",
+          "caption": "NEW SENSITIVE GMC",
+          "altText": "Project evidence for Sensitive Stones: NEW SENSITIVE GMC",
+          "watermarkedPath": "/portfolio-watermarked/NEW%20SENSITIVE%20GMC.webp"
+        }
+      ],
+      "result": "TBC — the available filename does not establish the original issue or outcome.",
+      "featured": false
+    },
+    {
+      "slug": "nk-herbal",
+      "businessName": "NK Herbal",
+      "industry": "Health / E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Merchant Center account evidence is available for this store.",
+      "media": [
+        {
+          "filePath": "../NK HERBAL GMC - Copy.JPG",
+          "type": "image",
+          "caption": "NK HERBAL GMC   Copy",
+          "altText": "Project evidence for NK Herbal: NK HERBAL GMC   Copy",
+          "watermarkedPath": "/portfolio-watermarked/NK%20HERBAL%20GMC%20-%20Copy.webp"
+        }
+      ],
+      "result": "TBC — no specific remediation or measurable result is documented.",
+      "featured": false
+    },
+    {
+      "slug": "absperkonig",
+      "businessName": "Absperkönig",
+      "industry": "E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Merchant Center approval evidence is available for this business.",
+      "media": [
+        {
+          "filePath": "../ABSPERKONG APPROVED GMC.JPG",
+          "type": "image",
+          "caption": "ABSPERKONG APPROVED GMC",
+          "altText": "Project evidence for Absperkönig: ABSPERKONG APPROVED GMC",
+          "watermarkedPath": "/portfolio-watermarked/ABSPERKONG%20APPROVED%20GMC.webp"
+        }
+      ],
+      "result": "The filename indicates Merchant Center approval. No commercial impact is documented.",
+      "featured": false
+    },
+    {
+      "slug": "golf-event-planning",
+      "businessName": "Golf Event Planning",
+      "industry": "Events",
+      "services": [
+        "GMC"
+      ],
+      "description": "Merchant Center approval evidence is available for this business.",
+      "media": [
+        {
+          "filePath": "../GEP APPROVED GMC.JPG",
+          "type": "image",
+          "caption": "GEP APPROVED GMC",
+          "altText": "Project evidence for Golf Event Planning: GEP APPROVED GMC",
+          "watermarkedPath": "/portfolio-watermarked/GEP%20APPROVED%20GMC.webp"
+        }
+      ],
+      "result": "The filename indicates Merchant Center approval. No commercial impact is documented.",
+      "featured": false
+    },
+    {
+      "slug": "sfs",
+      "businessName": "SFS",
+      "industry": "E-commerce",
+      "services": [
+        "GMC"
+      ],
+      "description": "Merchant Center account evidence is available.",
+      "media": [
+        {
+          "filePath": "../SFS GMC.PNG",
+          "type": "image",
+          "caption": "SFS GMC",
+          "altText": "Project evidence for SFS: SFS GMC",
+          "watermarkedPath": "/portfolio-watermarked/SFS%20GMC.webp"
+        }
+      ],
+      "result": "TBC — the filename does not establish a specific fix or outcome.",
+      "featured": false
+    },
+    {
+      "slug": "biophysics",
+      "businessName": "Biophysics Business",
+      "industry": "TBC",
+      "services": [
+        "Google Ads"
+      ],
+      "description": "Reviewed Google Ads account and setup evidence.",
+      "media": [
+        {
+          "filePath": "../ADS ACCOUNT BIOPH.JPG",
+          "type": "image",
+          "caption": "ADS ACCOUNT BIOPH",
+          "altText": "Project evidence for Biophysics Business: ADS ACCOUNT BIOPH",
+          "watermarkedPath": "/portfolio-watermarked/ADS%20ACCOUNT%20BIOPH.webp"
+        },
+        {
+          "filePath": "../BIOPHY.JPG",
+          "type": "image",
+          "caption": "BIOPHY",
+          "altText": "Project evidence for Biophysics Business: BIOPHY",
+          "watermarkedPath": "/portfolio-watermarked/BIOPHY.webp"
+        },
+        {
+          "filePath": "../AGD SEETUP.JPG",
+          "type": "image",
+          "caption": "AGD SEETUP",
+          "altText": "Project evidence for Biophysics Business: AGD SEETUP",
+          "watermarkedPath": "/portfolio-watermarked/AGD%20SEETUP.webp"
+        }
+      ],
+      "result": "TBC — the screenshots do not establish a confirmed account reinstatement or campaign performance outcome.",
+      "featured": false
+    },
+    {
+      "slug": "savella-ads",
+      "businessName": "Savella",
+      "industry": "TBC",
+      "services": [
+        "Google Ads"
+      ],
+      "description": "Google Ads account evidence is available in the repository.",
+      "media": [
+        {
+          "filePath": "../google ads savella.JPG",
+          "type": "image",
+          "caption": "google ads savella",
+          "altText": "Project evidence for Savella: google ads savella",
+          "watermarkedPath": "/portfolio-watermarked/google%20ads%20savella.webp"
+        }
+      ],
+      "result": "TBC — no specific optimization or campaign result is documented.",
+      "featured": false
+    },
+    {
+      "slug": "ga4-analytics",
+      "businessName": "Analytics Project (Business Unconfirmed)",
+      "industry": "TBC",
+      "services": [
+        "GA4"
+      ],
+      "description": "A Google Analytics screenshot is available, but the property, issue, and work performed are not established.",
+      "media": [
+        {
+          "filePath": "../ANALYTICS.JPG",
+          "type": "image",
+          "caption": "ANALYTICS",
+          "altText": "Project evidence for Analytics Project (Business Unconfirmed): ANALYTICS",
+          "watermarkedPath": "/portfolio-watermarked/ANALYTICS.webp"
+        }
+      ],
+      "result": "TBC — the screenshot alone does not prove a tracking fix or performance improvement.",
+      "featured": false
+    },
+    {
+      "slug": "unassigned-gmc-evidence",
+      "businessName": "Unassigned Merchant Center Evidence",
+      "industry": "TBC",
+      "services": [
+        "GMC"
+      ],
+      "description": "These screenshots appear to relate to Merchant Center, but their business attribution is not clear from the repository.",
+      "media": [
+        {
+          "filePath": "../APPROVED G.JPG",
+          "type": "image",
+          "caption": "APPROVED G",
+          "altText": "Project evidence for Unassigned Merchant Center Evidence: APPROVED G",
+          "watermarkedPath": "/portfolio-watermarked/APPROVED%20G.webp"
+        },
+        {
+          "filePath": "../APPROVED GMC.JPG",
+          "type": "image",
+          "caption": "APPROVED GMC",
+          "altText": "Project evidence for Unassigned Merchant Center Evidence: APPROVED GMC",
+          "watermarkedPath": "/portfolio-watermarked/APPROVED%20GMC.webp"
+        },
+        {
+          "filePath": "../APPROVED GMC.jpg",
+          "type": "image",
+          "caption": "APPROVED GMC",
+          "altText": "Project evidence for Unassigned Merchant Center Evidence: APPROVED GMC",
+          "watermarkedPath": "/portfolio-watermarked/APPROVED%20GMC.webp"
+        },
+        {
+          "filePath": "../Approved variant.JPG",
+          "type": "image",
+          "caption": "Approved variant",
+          "altText": "Project evidence for Unassigned Merchant Center Evidence: Approved variant",
+          "watermarkedPath": "/portfolio-watermarked/Approved%20variant.webp"
+        },
+        {
+          "filePath": "../Product issue fixed.JPG",
+          "type": "image",
+          "caption": "Product issue fixed",
+          "altText": "Project evidence for Unassigned Merchant Center Evidence: Product issue fixed",
+          "watermarkedPath": "/portfolio-watermarked/Product%20issue%20fixed.webp"
+        },
+        {
+          "filePath": "../SUCCESSFUL GMC APPROVED - Copy.JPG",
+          "type": "image",
+          "caption": "SUCCESSFUL GMC APPROVED   Copy",
+          "altText": "Project evidence for Unassigned Merchant Center Evidence: SUCCESSFUL GMC APPROVED   Copy",
+          "watermarkedPath": "/portfolio-watermarked/SUCCESSFUL%20GMC%20APPROVED%20-%20Copy.webp"
+        }
+      ],
+      "result": "TBC — business identity and project context have not been confirmed.",
+      "featured": false
+    }
+  ],
+  "excludedOrUnclear": [
+    {
+      "file": "64ej.JPG",
+      "reason": "Business attribution unclear; excluded pending identification."
+    },
+    {
+      "file": "GSW.JPG",
+      "reason": "Business attribution unclear; excluded pending identification."
+    },
+    {
+      "file": "GSW PPROVEDA.JPG",
+      "reason": "Business attribution unclear; excluded pending identification."
+    },
+    {
+      "file": "APP.JPG",
+      "reason": "Google service and business attribution unclear; excluded pending identification."
+    }
+  ],
+  "notes": [
+    "Original repository images remain unchanged. The build script generates watermarked WebP copies from image files in the repository root.",
+    "Only generated watermarked copies are referenced by the portfolio gallery.",
+    "PDFs and videos were not found in the repository scan.",
+    "Google Ads evidence is included as a service category alongside GMC, GMB and GA4. No identifiable GTM evidence was found.",
+    "Business/project labels follow repository filenames. Unclear business attributions remain marked TBC or excluded."
+  ]
+}
