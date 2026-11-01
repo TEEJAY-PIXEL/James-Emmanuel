@@ -205,6 +205,7 @@ export default function Home() {
       </section>
 
 
+      <a className="mobile-audit-cta" href="#free-audit">GET A FREE GA4/GMC HEALTH CHECK ↗</a>
       <AboutSection />
       <TestimonialsSection />
       <ProcessSection />
