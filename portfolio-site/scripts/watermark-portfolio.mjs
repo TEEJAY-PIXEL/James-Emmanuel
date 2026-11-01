@@ -21,7 +21,7 @@ for (const entry of files) {
   const image = sharp(input, { limitInputPixels: 100000000 });
   const meta = await image.metadata();
   if (!meta.width || !meta.height) continue;
-  await image.composite([{ input: watermarkSvg(meta.width, meta.height), tile: "repeat", blend: "over" }])
+  await image.composite([{ input: watermarkSvg(meta.width, meta.height), tile: true, blend: "over" }])
     .webp({ quality: 84, effort: 5 }).toFile(output);
 }
 console.log(`Watermarked ${files.length} image files into public/portfolio-watermarked`);
