@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01",
+  "updatedAt": "2026-11-03",
   "watermark": "James_web",
   "businesses": [
     {
@@ -762,6 +762,25 @@
       ],
       "result": "TBC — business identity and project context have not been confirmed.",
       "featured": false
+    },
+    {
+      "slug": "google-ads-system-circumvention-review",
+      "businessName": "New Google Ads Account — Suspension Review",
+      "industry": "Online Advertising",
+      "services": [
+        "Google Ads"
+      ],
+      "description": "New project received to review a Google Ads account suspension notice citing the “System Circumvention: Abusive Use of Multiple Accounts” policy.",
+      "media": [
+        {
+          "filePath": "pending-redacted-evidence",
+          "type": "image",
+          "caption": "Google Ads suspension notice — evidence pending redaction and upload",
+          "altText": "Google Ads suspension notice citing the System Circumvention policy"
+        }
+      ],
+      "result": "Project received. The account status and policy notice are documented; investigation, appeal outcome, and reinstatement have not yet been confirmed.",
+      "featured": true
     }
   ],
   "excludedOrUnclear": [
