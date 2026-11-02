@@ -1,30 +1,9 @@
 [
-  {
-    "question": "How long does it take?",
-    "answer": "Timing depends on the service and complexity. Typical timelines are 2–5 business days for standard GMC setup or feed work, 2–4 days for GMB optimization, 1–3 days for a standard GA4 setup or audit, and 1–2 days for straightforward GTM work. Complex troubleshooting and Google's review times can take longer."
-  },
-  {
-    "question": "What access do you need?",
-    "answer": "I use secure user invitations or role-based access for Merchant Center, Business Profile, GA4, GTM and your Shopify or WooCommerce store. Please never send passwords. Grant only the permissions needed for the agreed work."
-  },
-  {
-    "question": "How do you handle GMC suspensions and misrepresentation?",
-    "answer": "I review the account, website, business information, product data and relevant policy concerns, then provide a prioritized correction plan and work through the agreed fixes. Google makes the final review decision, so reinstatement cannot be guaranteed."
-  },
-  {
-    "question": "Do you guarantee approval or results?",
-    "answer": "No. I cannot guarantee Google's decisions, account approvals, rankings, traffic or advertising performance. I can commit to a clear process, careful implementation, honest communication and a report of the work completed."
-  },
-  {
-    "question": "How does payment work?",
-    "answer": "Projects arranged through Upwork or Fiverr follow the platform's payment and protection process, including milestones or escrow where available. Direct project payment arrangements are agreed in writing before work begins."
-  },
-  {
-    "question": "Do you offer ongoing support?",
-    "answer": "Yes. Ongoing assistance can be arranged for monitoring, store administration, analytics checks and follow-up troubleshooting. The scope and schedule are agreed before support begins."
-  },
-  {
-    "question": "Which platforms do you work with?",
-    "answer": "My Google ecosystem services include GMC, GMB, GA4 and GTM. I also support e-commerce and website work involving Shopify, WooCommerce, Wix and WordPress."
-  }
+  {"question":"How long does it take?","answer":"A GMC audit report is delivered within 24 hours. Product-feed checks and fixes, or a full website and GMC compliance project, typically take 7–10 days, including Google review time. Timing can vary with the complexity of the issues and Google's review process."},
+  {"question":"What access do you need?","answer":"I use secure user invitations or role-based access for Merchant Center, Business Profile, GA4, GTM and your Shopify or WooCommerce store. Please never send passwords. Grant only the permissions needed for the agreed work."},
+  {"question":"How do you handle GMC suspensions and misrepresentation?","answer":"I review the account, website, business information, product data and relevant policy concerns, then provide a prioritized correction plan and work through the agreed fixes. Google makes the final review decision, so reinstatement cannot be guaranteed."},
+  {"question":"Do you guarantee approval or results?","answer":"Google controls its own reviews and approval decisions, so approval cannot be guaranteed. My stated success rate is 95%, based on my project experience; each case is different. I follow a clear process and keep you updated throughout the work."},
+  {"question":"How does payment work?","answer":"Projects are paid for through Fiverr or Upwork before work begins. Once the agreed work is completed and delivered through the platform, you can review and accept the delivery there."},
+  {"question":"Do you offer ongoing support?","answer":"Yes. The full website and GMC compliance service includes an ongoing compliance checklist. Additional monitoring or support can be discussed and scoped separately."},
+  {"question":"Which platforms do you work with?","answer":"My Google ecosystem services include Google Merchant Center, Google Business Profile, Google Analytics 4 and Google Tag Manager. I also support e-commerce and website work involving Shopify, WooCommerce, Wix and WordPress."}
 ]
