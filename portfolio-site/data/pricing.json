@@ -1,79 +1,45 @@
 {
   "title": "Simple, Transparent Packages",
-  "subtitle": "A clear starting point for your next digital project. Final scope and pricing are agreed before work begins.",
+  "subtitle": "Straightforward Google Merchant Center support for e-commerce stores and growing businesses.",
   "packages": [
     {
-      "name": "Audit",
-      "price": "[PRICE]",
-      "audience": "For businesses that want a clearer picture of account, tracking or store issues.",
-      "items": [
-        "Review of the agreed platform and setup",
-        "Identify and prioritize key issues",
-        "Practical recommendations",
-        "Short findings summary"
-      ],
-      "turnaround": "[TURNAROUND]",
-      "cta": "REQUEST AN AUDIT",
+      "name": "GMC Audit & Report",
+      "price": "$30",
+      "audience": "For store owners who want to understand their Merchant Center account issues and the next steps.",
+      "items": ["Review of your Google Merchant Center account", "Identify account and product-feed issues", "Prioritized recommendations", "Clear audit report"],
+      "turnaround": "Audit report within 24 hours",
+      "cta": "BOOK AN AUDIT",
       "href": "/#free-audit",
       "popular": false
     },
     {
-      "name": "Setup",
-      "price": "[PRICE]",
-      "audience": "For businesses that need a platform configured, improved or implemented.",
-      "items": [
-        "Initial requirements and access review",
-        "Agreed setup or optimization tasks",
-        "Testing and quality checks",
-        "Handover notes and next steps"
-      ],
-      "turnaround": "[TURNAROUND]",
-      "cta": "DISCUSS A SETUP",
+      "name": "Product Feed Check & Fix",
+      "price": "$100",
+      "audience": "For stores that need up to 50 products checked and eligible product errors corrected.",
+      "items": ["Check up to 50 product listings", "Review product data and feed issues", "Fix identified product errors within the agreed scope", "Quality check of updated listings", "Completion summary"],
+      "turnaround": "7–10 days, including Google review time",
+      "cta": "FIX MY PRODUCT FEED",
       "href": "/contact",
       "popular": true
     },
     {
-      "name": "Monthly Support",
-      "price": "[PRICE]",
-      "audience": "For businesses that need ongoing help with their digital tools and operations.",
-      "items": [
-        "Agreed monthly task allowance",
-        "Routine checks and troubleshooting",
-        "Progress updates",
-        "Monthly summary and recommendations"
-      ],
-      "turnaround": "[SCHEDULE]",
-      "cta": "DISCUSS SUPPORT",
+      "name": "Full Website & GMC Compliance",
+      "price": "$300",
+      "audience": "For businesses that need a broader website compliance review and Merchant Center remediation.",
+      "items": ["Full website review for trust and policy compliance", "Identify website and Merchant Center issues", "Implement agreed website and GMC fixes", "Submit for Google review where applicable", "Ongoing checklist to help maintain compliance"],
+      "turnaround": "7–10 days, including Google review time",
+      "cta": "DISCUSS FULL COMPLIANCE",
       "href": "/contact",
       "popular": false
     }
   ],
   "customProjects": "Need something different? Let's talk.",
   "comparison": [
-    {
-      "feature": "Initial review",
-      "audit": "Included",
-      "setup": "Included",
-      "monthly": "As agreed"
-    },
-    {
-      "feature": "Implementation",
-      "audit": "Recommendations",
-      "setup": "Included",
-      "monthly": "As agreed"
-    },
-    {
-      "feature": "Testing and handover",
-      "audit": "Findings summary",
-      "setup": "Included",
-      "monthly": "Ongoing"
-    },
-    {
-      "feature": "Ongoing support",
-      "audit": "Not included",
-      "setup": "Optional",
-      "monthly": "Included"
-    }
+    {"feature": "Merchant Center audit", "audit": "Included", "setup": "Included", "monthly": "Included"},
+    {"feature": "Product feed checks", "audit": "Review", "setup": "Up to 50 products", "monthly": "As scoped"},
+    {"feature": "Website compliance review", "audit": "Recommendations", "setup": "Not included", "monthly": "Included"},
+    {"feature": "Implementation", "audit": "Not included", "setup": "Product error fixes", "monthly": "Website and GMC fixes"},
+    {"feature": "Compliance checklist", "audit": "Not included", "setup": "Not included", "monthly": "Included"}
   ],
-  "note": "Prices vary by store size, platform, scope and complexity. A final quote is provided after the requirements are understood."
+  "note": "Prices are in USD. Final scope may vary with store size, product volume and issue complexity. Google review times are included in the 7–10 day project estimate where applicable."
 }
