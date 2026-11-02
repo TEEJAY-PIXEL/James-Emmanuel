@@ -6,12 +6,33 @@
   "why": "I enjoy helping business owners solve digital problems, understand what is happening behind the scenes and move forward with a clear plan.",
   "photo": "/portfolio-watermarked/1777307059782.webp",
   "photoAlt": "James, freelance Google ecosystem specialist",
-  "tools": ["Google Merchant Center", "Google Business Profile", "Google Analytics 4", "Google Tag Manager", "Looker Studio", "Google Search Console"],
-  "certifications": ["[CERT NAME]"],
+  "tools": [
+    "Google Merchant Center",
+    "Google Business Profile",
+    "Google Analytics 4",
+    "Google Tag Manager",
+    "Looker Studio",
+    "Google Search Console"
+  ],
+  "certifications": [
+    "Google Merchant Center (GMC) Specialist — Mindluster"
+  ],
   "stats": [
-    {"label": "Accounts fixed", "value": "68+"},
-    {"label": "Years of experience", "value": "3"},
-    {"label": "Success rate", "value": "95%"},
-    {"label": "Average project turnaround", "value": "7–10 days"}
+    {
+      "label": "Accounts fixed",
+      "value": "68+"
+    },
+    {
+      "label": "Years of experience",
+      "value": "3"
+    },
+    {
+      "label": "Success rate",
+      "value": "95%"
+    },
+    {
+      "label": "Average project turnaround",
+      "value": "7–10 days"
+    }
   ]
 }
