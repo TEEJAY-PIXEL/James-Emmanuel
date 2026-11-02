@@ -2,13 +2,8 @@
   "title": "Get a Free GA4/GMC Health Check",
   "description": "Tell me a little about your website and the issue you are facing. I'll review the information you provide and outline the top three issues I can identify.",
   "deliverable": "A short report highlighting the top 3 issues found.",
-  "deliveryWindow": "[48 hours]",
-  "services": [
-    "GMC",
-    "GMB",
-    "GA4",
-    "GTM"
-  ],
+  "deliveryWindow": "Within 24 hours",
+  "services": ["GMC", "GMB", "GA4", "GTM"],
   "formProvider": "[Formspree / Resend / Vercel serverless function]",
   "privacyPath": "/privacy-policy"
 }
