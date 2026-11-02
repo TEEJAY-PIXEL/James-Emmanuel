@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
-type Media = { filePath: string; type: "image" | "video" | "pdf"; caption: string; altText: string; watermarkedPath?: string };
-type Business = { slug: string; businessName: string; industry: string; services: string[]; description: string; media: Media[]; result: string; featured: boolean };
+export type Media = { filePath: string; type: "image" | "video" | "pdf"; caption: string; altText: string; watermarkedPath?: string };
+export type Business = { slug: string; businessName: string; industry: string; services: string[]; description: string; media: Media[]; result: string; featured: boolean };
 const filters = ["All", "GMC", "GMB", "GA4", "GTM", "Google Ads"];
 
 export default function PortfolioGallery({ businesses, caseStudySlugs }: { businesses: Business[]; caseStudySlugs: string[] }) {
@@ -22,7 +22,7 @@ export default function PortfolioGallery({ businesses, caseStudySlugs }: { busin
           <div className="portfolio-tags">{business.services.map(service=><span key={service}>{service}</span>)}</div>
         </div>
         <div className="portfolio-media-grid">
-          {business.media.map((media,index) => media.type === "image" && media.watermarkedPath ? <button className="portfolio-media-button" type="button" key={media.filePath} onClick={()=>setLightbox({src:media.watermarkedPath!,alt:media.altText,caption:media.caption})} onContextMenu={e=>e.preventDefault()} aria-label={`Open image: ${media.caption}`}>
+          {business.media.map(media => media.type === "image" && media.watermarkedPath ? <button className="portfolio-media-button" type="button" key={media.filePath} onClick={()=>setLightbox({src:media.watermarkedPath!,alt:media.altText,caption:media.caption})} onContextMenu={e=>e.preventDefault()} aria-label={`Open image: ${media.caption}`}>
             <span className="portfolio-image-frame"><Image src={media.watermarkedPath} alt={media.altText} fill sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 33vw" className="portfolio-image" draggable={false} onContextMenu={e=>e.preventDefault()} /></span><span className="portfolio-caption">{media.caption}</span>
           </button> : <div className="portfolio-media-placeholder" key={media.filePath}>{media.caption} — TBC</div>)}
         </div>
