@@ -5,7 +5,8 @@ const contactMethods = [
   { number: "02", name: "WhatsApp", detail: "Message me directly to discuss your project.", action: "CHAT ON WHATSAPP", href: "https://wa.me/message/E6ONVPYUJA2TK1", external: true },
   { number: "03", name: "LinkedIn", detail: "Connect with me and explore my professional background.", action: "CONNECT ON LINKEDIN", href: "https://www.linkedin.com/in/tee-jay-342g5", external: true },
   { number: "04", name: "Upwork", detail: "View my freelancer profile and work with me on a project.", action: "HIRE ME ON UPWORK", href: "https://www.upwork.com/freelancers/~01df1fa08cbbe1786f", external: true },
-  { number: "05", name: "Instagram", detail: "Follow along for updates, work and digital insights.", action: "FOLLOW ON INSTAGRAM", href: "https://www.instagram.com/jamesemmanuel4.453/", external: true },\n  { number: "06", name: "Fiverr", detail: "View my services and hire me directly on Fiverr.", action: "HIRE ME ON FIVERR", href: "https://www.fiverr.com/layinka_james/", external: true },
+  { number: "05", name: "Instagram", detail: "Follow along for updates, work and digital insights.", action: "FOLLOW ON INSTAGRAM", href: "https://www.instagram.com/jamesemmanuel4.453/", external: true },
+  { number: "06", name: "Fiverr", detail: "View my services and hire me directly on Fiverr.", action: "HIRE ME ON FIVERR", href: "https://www.fiverr.com/layinka_james/", external: true },
 ];
 
 export default function ContactPage() {
