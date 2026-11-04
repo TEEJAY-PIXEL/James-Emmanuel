@@ -1,0 +1,9 @@
+import fs from "node:fs/promises";
+import path from "node:path";
+import sharp from "sharp";
+import site from "../data/site.json" with { type: "json" };
+import testimonials from "../data/testimonials.json" with { type: "json" };
+const outputDir=path.resolve(process.cwd(),"public/testimonials-watermarked");
+await fs.mkdir(outputDir,{recursive:true});
+const watermark=(w,h)=>{const s=Math.max(18,Math.min(42,Math.round(Math.min(w,h)*.045))),tw=Math.max(230,s*8),th=Math.max(170,s*6);return Buffer.from(`<svg width="${w}" height="${h}" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="wm" width="${tw}" height="${th}" patternUnits="userSpaceOnUse"><g transform="translate(10 ${th/2}) rotate(-28)"><text x="0" y="0" font-family="Arial,sans-serif" font-size="${s}" font-weight="700" letter-spacing="1.4" fill="#fff" fill-opacity=".48" stroke="#111" stroke-opacity=".24" stroke-width="1.5" paint-order="stroke">James_web</text></g></pattern></defs><rect width="100%" height="100%" fill="url(#wm)"/></svg>`)};
+for(const item of testimonials){const url=`${site.supabaseUrl}/storage/v1/object/public/${encodeURIComponent(site.supabaseBucket)}/${item.filename.split("/").map(encodeURIComponent).join("/")}`;const res=await fetch(url);if(!res.ok){console.warn(`Skipping ${item.filename}: HTTP ${res.status}`);continue;}const input=Buffer.from(await res.arrayBuffer()),img=sharp(input,{limitInputPixels:100000000}),meta=await img.metadata();if(!meta.width||!meta.height)continue;await img.composite([{input:watermark(meta.width,meta.height),blend:"over"}]).webp({quality:86,effort:5}).toFile(path.join(outputDir,item.filename.replace(/\.jpg$/i,".webp")));}console.log("Prepared watermarked testimonial images.");
