@@ -309,3 +309,21 @@ a { color: inherit; text-decoration: none; }
  .footer{align-items:flex-start;flex-direction:column;padding:22px 0 82px;gap:14px}
  .footer-links{justify-content:flex-start;gap:12px}
 }
+
+/* WhatsApp testimonial gallery */
+.whatsapp-testimonial-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.whatsapp-testimonial-card{min-width:0;padding:13px;border:1px solid var(--line);border-radius:9px;background:#fff;box-shadow:0 9px 28px rgba(0,0,0,.045)}
+.whatsapp-image-button{display:block;width:100%;padding:0;border:0;background:#f7f7f7;border-radius:6px;overflow:hidden;cursor:zoom-in}
+.whatsapp-image-button img{display:block;width:100%;height:390px;object-fit:contain}
+.whatsapp-testimonial-card .verified-badge{margin-top:12px}
+.whatsapp-testimonial-card>p{margin:9px 0 2px;color:#666;font-size:11px;line-height:1.6}
+.testimonial-cta{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:28px;padding:28px;border-radius:8px;background:#f4f4f2}
+.testimonial-cta h3{margin:0;font:800 24px "Manrope",sans-serif;letter-spacing:-.7px}
+.testimonial-cta p{margin:8px 0 0;color:#666;font-size:12px;line-height:1.7}
+.testimonial-cta-actions{display:flex;flex-wrap:wrap;gap:9px}
+.testimonial-lightbox-content{position:relative;width:min(850px,78vw);height:82vh}
+.testimonial-lightbox-content p{position:absolute;bottom:-28px;left:0;color:#fff;font-size:11px}
+.testimonial-lightbox-nav{position:absolute;z-index:2;top:50%;transform:translateY(-50%);width:44px;height:54px;border:1px solid rgba(255,255,255,.5);border-radius:5px;background:rgba(0,0,0,.4);color:#fff;font-size:34px;cursor:pointer}
+.testimonial-lightbox-nav.prev{left:16px}.testimonial-lightbox-nav.next{right:16px}
+@media(max-width:900px){.whatsapp-testimonial-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.whatsapp-image-button img{height:360px}}
+@media(max-width:700px){.whatsapp-testimonial-grid{grid-template-columns:1fr}.whatsapp-image-button img{height:min(520px,125vw)}.testimonial-cta{align-items:flex-start;flex-direction:column;padding:23px 19px}.testimonial-lightbox-content{width:88vw;height:74vh}.testimonial-lightbox-nav{width:36px;height:46px}.testimonial-lightbox-nav.prev{left:6px}.testimonial-lightbox-nav.next{right:6px}}
