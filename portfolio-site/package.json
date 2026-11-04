@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "prebuild": "node scripts/watermark-portfolio.mjs"
+    "prebuild": "node scripts/watermark-portfolio.mjs && node scripts/watermark-testimonials.mjs"
   },
   "dependencies": {
     "next": "^15.2.0",
