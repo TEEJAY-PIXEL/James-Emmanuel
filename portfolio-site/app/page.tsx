@@ -2,6 +2,7 @@ import SiteHeader from "@/app/components/site-header";
 import SiteFooter from "@/app/components/site-footer";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { caseStudies } from "@/lib/case-studies";
 
 export const metadata: Metadata = {
   title: "Fix Google Merchant Center Suspensions & Misrepresentation | James Emmanuel",
@@ -76,6 +77,7 @@ const serviceDetails = [
   },
 ];
 
+const featuredGmcStudies = caseStudies.filter(s => s.serviceType.includes("GMC") && !s.result.startsWith("TBC")).slice(0, 3);
 export default function Home() {
   return (
     <main className="site-shell" id="top">
@@ -151,6 +153,16 @@ export default function Home() {
         </article>
       </section>
 
+      <section className="home-content-section" id="gmc-results">
+        <div className="home-section-heading"><p className="eyebrow">MERCHANT CENTER PROJECT EVIDENCE</p><h2>See the issues I have worked on.</h2><p>Documented account warnings, review steps and product-status evidence. These examples do not guarantee approval or sales.</p></div>
+        <div className="case-grid">{featuredGmcStudies.map(study => <article className="case-card" key={study.slug}>
+          <div className="case-card-top"><span>{study.industry}</span><div className="case-tags"><span>GMC</span></div></div>
+          <h3>{study.brandName}</h3><p>{study.problem}</p>
+          <div className="case-result"><span>DOCUMENTED RESULT</span><p>{study.result}</p></div>
+          <a className="case-read-link" href={`/case-studies/${study.slug}`}>READ CASE STUDY ↗</a>
+        </article>)}</div>
+        <div className="hero-actions"><a className="hero-secondary-button" href="/case-studies?service=GMC">EXPLORE GMC CASE STUDIES ↗</a><a className="primary-button" href="/pricing#gmc">GET GMC HELP ↗</a></div>
+      </section>
       <section className="expertise-section" id="expertise">
         <div className="section-heading">
           <p className="eyebrow">HOW I CAN HELP</p>
