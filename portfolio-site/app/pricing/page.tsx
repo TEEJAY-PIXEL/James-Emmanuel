@@ -11,9 +11,7 @@ export const metadata:Metadata={
 
 type PackageItem={name:string;price:string;audience:string;items:string[];turnaround:string;cta:string;href?:string;popular?:boolean};
 function packageInquiry(p:PackageItem){
-  const subject=encodeURIComponent(`Project inquiry: ${p.name} (${p.price})`);
-  const body=encodeURIComponent(`Hello James, I am interested in the ${p.name} package (${p.price}).\n\nMy website: \nMy issue / goals: \n\nPlease advise on next steps and how to order through Fiverr or Upwork.`);
-  return `mailto:jamesmanuel966@gmail.com?subject=${subject}&body=${body}`;
+  return `/inquiry?package=${encodeURIComponent(p.name)}`;
 }
 function PackageCards({packages}:{packages:PackageItem[]}){
   return <div className="pricing-grid">{packages.map((p)=><article className={`pricing-card ${p.popular?"pricing-popular":""}`} key={p.name}>
