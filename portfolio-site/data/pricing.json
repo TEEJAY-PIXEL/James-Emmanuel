@@ -1,12 +1,17 @@
 {
   "title": "Simple, Transparent Packages",
-  "subtitle": "Straightforward Google Merchant Center support for e-commerce stores and growing businesses.",
+  "subtitle": "Straightforward packages for Google services, analytics tracking and e-commerce website design. Choose the level of support that fits your business.",
   "packages": [
     {
       "name": "GMC Audit & Report",
       "price": "$30",
       "audience": "For store owners who want to understand their Merchant Center account issues and the next steps.",
-      "items": ["Review of your Google Merchant Center account", "Identify account and product-feed issues", "Prioritized recommendations", "Clear audit report"],
+      "items": [
+        "Review of your Google Merchant Center account",
+        "Identify account and product-feed issues",
+        "Prioritized recommendations",
+        "Clear audit report"
+      ],
       "turnaround": "Audit report within 24 hours",
       "cta": "BOOK AN AUDIT",
       "href": "/#free-audit",
@@ -16,7 +21,13 @@
       "name": "Product Feed Check & Fix",
       "price": "$100",
       "audience": "For stores that need up to 50 products checked and eligible product errors corrected.",
-      "items": ["Check up to 50 product listings", "Review product data and feed issues", "Fix identified product errors within the agreed scope", "Quality check of updated listings", "Completion summary"],
+      "items": [
+        "Check up to 50 product listings",
+        "Review product data and feed issues",
+        "Fix identified product errors within the agreed scope",
+        "Quality check of updated listings",
+        "Completion summary"
+      ],
       "turnaround": "7–10 days, including Google review time",
       "cta": "FIX MY PRODUCT FEED",
       "href": "/contact",
@@ -26,20 +37,251 @@
       "name": "Full Website & GMC Compliance",
       "price": "$300",
       "audience": "For businesses that need a broader website compliance review and Merchant Center remediation.",
-      "items": ["Full website review for trust and policy compliance", "Identify website and Merchant Center issues", "Implement agreed website and GMC fixes", "Submit for Google review where applicable", "Ongoing checklist to help maintain compliance"],
+      "items": [
+        "Full website review for trust and policy compliance",
+        "Identify website and Merchant Center issues",
+        "Implement agreed website and GMC fixes",
+        "Submit for Google review where applicable",
+        "Ongoing checklist to help maintain compliance"
+      ],
       "turnaround": "7–10 days, including Google review time",
       "cta": "DISCUSS FULL COMPLIANCE",
       "href": "/contact",
       "popular": false
     }
   ],
-  "customProjects": "Need something different? Let's talk.",
+  "customProjects": "Need a tailored scope or ongoing support? Let's talk.",
   "comparison": [
-    {"feature": "Merchant Center audit", "audit": "Included", "setup": "Included", "monthly": "Included"},
-    {"feature": "Product feed checks", "audit": "Review", "setup": "Up to 50 products", "monthly": "As scoped"},
-    {"feature": "Website compliance review", "audit": "Recommendations", "setup": "Not included", "monthly": "Included"},
-    {"feature": "Implementation", "audit": "Not included", "setup": "Product error fixes", "monthly": "Website and GMC fixes"},
-    {"feature": "Compliance checklist", "audit": "Not included", "setup": "Not included", "monthly": "Included"}
+    {
+      "feature": "Merchant Center audit",
+      "audit": "Included",
+      "setup": "Included",
+      "monthly": "Included"
+    },
+    {
+      "feature": "Product feed checks",
+      "audit": "Review",
+      "setup": "Up to 50 products",
+      "monthly": "As scoped"
+    },
+    {
+      "feature": "Website compliance review",
+      "audit": "Recommendations",
+      "setup": "Not included",
+      "monthly": "Included"
+    },
+    {
+      "feature": "Implementation",
+      "audit": "Not included",
+      "setup": "Product error fixes",
+      "monthly": "Website and GMC fixes"
+    },
+    {
+      "feature": "Compliance checklist",
+      "audit": "Not included",
+      "setup": "Not included",
+      "monthly": "Included"
+    }
   ],
-  "note": "Prices are in USD. Final scope may vary with store size, product volume and issue complexity. Google review times are included in the 7–10 day project estimate where applicable."
+  "note": "All prices are in USD. Website packages cover Shopify, Wix, WordPress or WooCommerce according to the agreed project scope. Domain, hosting, paid themes, apps, plugins, third-party subscriptions, product entry beyond the agreed scope and custom development are not included unless stated in the project agreement. Google review and verification timelines are controlled by Google.",
+  "serviceSections": [
+    {
+      "id": "gmb",
+      "title": "Google Business Profile",
+      "description": "Set up, optimize and improve your local business presence on Google.",
+      "packages": [
+        {
+          "name": "Profile Audit",
+          "price": "$50",
+          "audience": "For businesses that want to understand what is holding their profile back.",
+          "items": [
+            "Review of your Google Business Profile",
+            "Check business details and category alignment",
+            "Review services, description and profile completeness",
+            "Prioritized improvement recommendations"
+          ],
+          "turnaround": "2–3 business days",
+          "cta": "BOOK PROFILE AUDIT"
+        },
+        {
+          "name": "Profile Optimization",
+          "price": "$100",
+          "audience": "For businesses with an existing profile that needs a professional optimization.",
+          "items": [
+            "Everything in Profile Audit",
+            "Optimize business description and services",
+            "Review categories, contact details and business hours",
+            "Optimize available profile attributes",
+            "Completion summary and recommendations"
+          ],
+          "turnaround": "3–5 business days",
+          "cta": "OPTIMIZE MY PROFILE"
+        },
+        {
+          "name": "Setup & Optimization",
+          "price": "$180",
+          "audience": "For a new or existing business that needs a complete profile setup and optimization.",
+          "items": [
+            "Profile creation or setup assistance",
+            "Business information and category configuration",
+            "Add services, description and relevant details",
+            "Guidance on photos and verification steps",
+            "Final profile review and handover"
+          ],
+          "turnaround": "5–7 business days; Google verification time varies",
+          "cta": "SET UP MY PROFILE"
+        }
+      ]
+    },
+    {
+      "id": "ga4",
+      "title": "Google Analytics 4 (GA4)",
+      "description": "Get reliable website measurement with a properly configured GA4 property and events.",
+      "packages": [
+        {
+          "name": "GA4 Setup",
+          "price": "$75",
+          "audience": "For websites that need GA4 installed and collecting basic traffic data.",
+          "items": [
+            "GA4 property setup or configuration",
+            "Install GA4 tracking on one website",
+            "Verify page-view data collection",
+            "Basic real-time testing",
+            "Setup handover notes"
+          ],
+          "turnaround": "2–3 business days",
+          "cta": "SET UP GA4"
+        },
+        {
+          "name": "GA4 Event Tracking",
+          "price": "$150",
+          "audience": "For businesses that want to measure key visitor actions, not just page views.",
+          "items": [
+            "Everything in GA4 Setup",
+            "Configure up to 5 agreed key events",
+            "Configure conversions/key events where supported",
+            "Test events in DebugView or Realtime",
+            "Tracking summary and handover"
+          ],
+          "turnaround": "3–5 business days",
+          "cta": "TRACK MY EVENTS"
+        },
+        {
+          "name": "GA4 E-commerce Tracking",
+          "price": "$250",
+          "audience": "For online stores that need visibility into important shopping and purchase actions.",
+          "items": [
+            "GA4 property and ecommerce measurement review",
+            "Configure supported ecommerce events for the agreed platform",
+            "Validate product, cart and purchase event data where available",
+            "Test tracking and identify data gaps",
+            "Implementation summary and handover"
+          ],
+          "turnaround": "5–7 business days, depending on store platform",
+          "cta": "TRACK MY STORE"
+        }
+      ]
+    },
+    {
+      "id": "gtm",
+      "title": "Google Tag Manager (GTM)",
+      "description": "Manage website tags and event tracking through a clean, tested GTM container.",
+      "packages": [
+        {
+          "name": "GTM Setup",
+          "price": "$75",
+          "audience": "For websites that need a properly configured Google Tag Manager container.",
+          "items": [
+            "GTM account/container setup or review",
+            "Install container on one website",
+            "Configure basic Google tag",
+            "Preview and publish after testing",
+            "Setup handover notes"
+          ],
+          "turnaround": "2–3 business days",
+          "cta": "SET UP GTM"
+        },
+        {
+          "name": "Tag & Event Tracking",
+          "price": "$150",
+          "audience": "For businesses that need important website interactions tracked accurately.",
+          "items": [
+            "Everything in GTM Setup",
+            "Configure up to 5 agreed tags or event triggers",
+            "Set up supported click, form or interaction tracking",
+            "Test tags in GTM Preview mode",
+            "Container summary and handover"
+          ],
+          "turnaround": "3–5 business days",
+          "cta": "CONFIGURE MY TAGS"
+        },
+        {
+          "name": "Advanced Tracking Setup",
+          "price": "$250",
+          "audience": "For businesses that need a more complete tracking implementation.",
+          "items": [
+            "GTM container structure review",
+            "Configure up to 10 agreed tags, triggers or variables",
+            "GA4 event integration where applicable",
+            "Cross-check firing rules and duplicate events",
+            "Testing, publishing and implementation notes"
+          ],
+          "turnaround": "5–7 business days, depending on requirements",
+          "cta": "DISCUSS ADVANCED TRACKING"
+        }
+      ]
+    },
+    {
+      "id": "website-design",
+      "title": "Website & E-commerce Store Design",
+      "description": "Website design, redesign and store setup across Shopify, Wix, WordPress and WooCommerce. Package scope is agreed before work begins.",
+      "packages": [
+        {
+          "name": "Basic Website",
+          "price": "$150",
+          "audience": "For a new business or personal brand that needs a clean, professional online presence.",
+          "items": [
+            "Responsive website design",
+            "Up to 3 core pages",
+            "Mobile and desktop layout setup",
+            "Contact form or clear contact section",
+            "Basic on-page SEO settings",
+            "Launch review and handover"
+          ],
+          "turnaround": "5–7 business days",
+          "cta": "START BASIC WEBSITE"
+        },
+        {
+          "name": "Standard Website",
+          "price": "$300",
+          "audience": "For a growing business that needs a more complete website with stronger structure and functionality.",
+          "items": [
+            "Everything in Basic",
+            "Up to 5 pages",
+            "Custom section and layout design",
+            "Blog or service sections where applicable",
+            "Basic speed and on-page SEO setup",
+            "Responsive testing and launch support"
+          ],
+          "turnaround": "7–10 business days",
+          "cta": "CHOOSE STANDARD"
+        },
+        {
+          "name": "Premium Website / Store",
+          "price": "$700",
+          "audience": "For businesses that need a polished, feature-rich website or e-commerce store.",
+          "items": [
+            "Everything in Standard",
+            "Up to 10 pages or agreed store page templates",
+            "E-commerce setup on Shopify or WooCommerce where required",
+            "Product, collection or service page setup (scope agreed)",
+            "Payment and essential store settings configuration where supported",
+            "Advanced layout refinement, responsive testing and launch handover"
+          ],
+          "turnaround": "10–15 business days, depending on content and store complexity",
+          "cta": "BUILD MY PREMIUM SITE"
+        }
+      ]
+    }
+  ]
 }
