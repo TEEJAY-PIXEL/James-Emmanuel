@@ -4,9 +4,9 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 
 type Study = { slug:string; brandName:string; industry:string; serviceType:string[]; problem:string; result:string; metrics:{label:string;value:string}[] };
-const filters = ["All","GMC","GMB","GA4","GTM"] as const;
-export default function CaseStudyFilters({ studies }: { studies: Study[] }) {
-  const [active,setActive] = useState<string>("All");
+const filters = ["All","GMC","GMB","GA4","GTM","Google Ads"] as const;
+export default function CaseStudyFilters({ studies, initialService = "All" }: { studies: Study[]; initialService?: string }) {
+  const [active,setActive] = useState<string>(initialService);
   const visible = useMemo(() => studies.filter(s => active === "All" || s.serviceType.includes(active)),[studies,active]);
   return <>
     <div className="case-filters" role="group" aria-label="Filter case studies">
