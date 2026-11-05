@@ -8,7 +8,8 @@ export const metadata:Metadata={
   description:"Explore transparent packages for Google Merchant Center, Google Business Profile, GA4, GTM and website design."
 };
 
-function PackageCards({packages}:{packages:typeof pricing.packages}){
+type PackageItem={name:string;price:string;audience:string;items:string[];turnaround:string;cta:string;popular?:boolean};
+function PackageCards({packages}:{packages:PackageItem[]}){
   return <div className="pricing-grid">{packages.map((p)=><article className={`pricing-card ${p.popular?"pricing-popular":""}`} key={p.name}>
     {p.popular&&<span className="popular-label">MOST POPULAR</span>}
     <h3>{p.name}</h3><p className="pricing-price"><strong>{p.price}</strong></p>
