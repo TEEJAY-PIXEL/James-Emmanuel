@@ -4,12 +4,12 @@ import Image from "next/image";
 import { AboutSection, TestimonialsSection, ProcessSection, FAQSection, FreeAuditSection } from "./home-sections";
 
 const services = [
-  "Shopify",
-  "Wix",
-  "WordPress",
-  "Google Merchant Center",
-  "Google Business Profile",
-  "GA4 & GTM",
+  { label: "Shopify", href: "#service-01" },
+  { label: "Wix", href: "#service-01" },
+  { label: "WordPress", href: "#service-01" },
+  { label: "Google Merchant Center", href: "#service-03" },
+  { label: "Google Business Profile", href: "#service-04" },
+  { label: "GA4 & GTM", href: "#service-05" },
 ];
 
 const serviceDetails = [
@@ -120,9 +120,9 @@ export default function Home() {
 
             <div className="service-pills" aria-label="Platforms and services">
               {services.map((service) => (
-                <span className="service-pill" key={service}>
-                  {service}
-                </span>
+                <a className="service-pill" key={service.label} href={service.href} aria-label={`View ${service.label} service details`}>
+                  {service.label}
+                </a>
               ))}
             </div>
 
@@ -151,7 +151,7 @@ export default function Home() {
 
         <div className="service-grid" id="services">
           {serviceDetails.map((item) => (
-            <article className="service-card detail-card" key={item.number}>
+            <article className="service-card detail-card" id={`service-${item.number}`} key={item.number}>
               <div className="service-card-heading">
                 <span className="service-number">{item.number}</span>
                 <span className="service-label">SERVICE</span>
