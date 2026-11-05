@@ -100,7 +100,7 @@ export default function Home() {
           <div className="portrait-frame">
             {/* Add your portrait at public/images/james-profile.webp */}
             <Image
-              src="/portfolio-watermarked/1777307059782.webp"
+              src="https://hxppdwwsfukoavfcsdtu.supabase.co/storage/v1/object/public/IMAGES/james-profile-new.webp"
               alt="James, website and digital operations specialist"
               className="portrait"
               width={220}
