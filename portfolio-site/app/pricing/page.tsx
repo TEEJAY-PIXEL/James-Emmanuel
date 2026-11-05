@@ -4,11 +4,17 @@ import type {Metadata} from "next";
 import pricing from "../../data/pricing.json";
 
 export const metadata:Metadata={
-  title:"Pricing | James — Digital, Google & Website Services",
+  title:"GMC Suspension Fix Pricing & Google Services",
+  alternates: { canonical: "/pricing" },
   description:"Explore transparent packages for Google Merchant Center, Google Business Profile, GA4, GTM and website design."
 };
 
-type PackageItem={name:string;price:string;audience:string;items:string[];turnaround:string;cta:string;popular?:boolean};
+type PackageItem={name:string;price:string;audience:string;items:string[];turnaround:string;cta:string;href?:string;popular?:boolean};
+function packageInquiry(p:PackageItem){
+  const subject=encodeURIComponent(`Project inquiry: ${p.name} (${p.price})`);
+  const body=encodeURIComponent(`Hello James, I am interested in the ${p.name} package (${p.price}).\n\nMy website: \nMy issue / goals: \n\nPlease advise on next steps and how to order through Fiverr or Upwork.`);
+  return `mailto:jamesmanuel966@gmail.com?subject=${subject}&body=${body}`;
+}
 function PackageCards({packages}:{packages:PackageItem[]}){
   return <div className="pricing-grid">{packages.map((p)=><article className={`pricing-card ${p.popular?"pricing-popular":""}`} key={p.name}>
     {p.popular&&<span className="popular-label">MOST POPULAR</span>}
@@ -16,7 +22,7 @@ function PackageCards({packages}:{packages:PackageItem[]}){
     <p className="pricing-audience">{p.audience}</p>
     <ul>{p.items.map((item)=><li key={item}>{item}</li>)}</ul>
     <p className="pricing-turnaround"><strong>Turnaround</strong><br/>{p.turnaround}</p>
-    <a className="primary-button" href="/contact">{p.cta} ↗</a>
+    <a className="primary-button" href={packageInquiry(p)}>{p.cta} ↗</a>
   </article>)}</div>;
 }
 
