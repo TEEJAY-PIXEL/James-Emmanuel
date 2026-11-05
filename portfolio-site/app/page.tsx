@@ -1,6 +1,13 @@
 import SiteHeader from "@/app/components/site-header";
 import SiteFooter from "@/app/components/site-footer";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Fix Google Merchant Center Suspensions & Misrepresentation | James Emmanuel",
+  description: "GMC suspension and misrepresentation support for Shopify and e-commerce stores. Review product disapprovals, feeds and website compliance with James Emmanuel.",
+  alternates: { canonical: "/" },
+};
 import { AboutSection, TestimonialsSection, ProcessSection, FAQSection, FreeAuditSection } from "./home-sections";
 
 const services = [
@@ -34,8 +41,8 @@ const serviceDetails = [
   {
     number: "03",
     title: "Google Merchant Center (GMC)",
-    summary: "Cleaner product data and a healthier Merchant Center setup for your shopping campaigns.",
-    what: "I help set up or review Merchant Center, connect product sources, improve feed attributes, check diagnostics and investigate common account or product disapprovals and policy issues.",
+    summary: "Support for GMC suspensions, misrepresentation, product disapprovals, feed issues and website compliance.",
+    what: "I investigate Merchant Center suspensions and misrepresentation concerns, review website trust and policy details, diagnose product disapprovals, improve product-feed attributes and help prepare corrective steps before requesting a Google review where appropriate.",
     audience: "E-commerce businesses and product-based brands that want to list products on Google, improve feed quality or understand Merchant Center warnings and suspensions.",
     deliverables: ["Account and feed review", "Product data and attribute improvements", "Diagnostics and issue checklist", "Practical policy and next-step recommendations"],
     turnaround: "Typically 2–5 business days for setup or feed work. Complex diagnostics or account suspension cases may take 5–10+ business days; Google review times are outside my control.",
@@ -75,17 +82,22 @@ export default function Home() {
       <SiteHeader />
 
       <section className="intro-section">
-        <p className="eyebrow">INDEPENDENT DIGITAL SPECIALIST</p>
+        <p className="eyebrow">GOOGLE MERCHANT CENTER & E-COMMERCE SPECIALIST</p>
         <h1>
-          Helping businesses build
+          Fix Google Merchant Center Issues
           <br />
-          <span>better digital experiences.</span>
+          <span>and Grow Your E-commerce Business.</span>
         </h1>
         <p className="intro-copy">
-          I&apos;m James — I design and optimize business websites, support
-          e-commerce operations and build measurement systems that help brands
-          grow with confidence.
+          I&apos;m James — I help Shopify and e-commerce businesses investigate
+          Google Merchant Center suspensions, misrepresentation, product disapprovals
+          and website compliance issues. I also build websites and support analytics and store operations.
         </p>
+        <div className="hero-actions">
+          <a className="primary-button" href="/pricing#gmc">FIX MY GMC ISSUE <span aria-hidden="true">↗</span></a>
+          <a className="hero-secondary-button" href="/portfolio">VIEW MY RESULTS <span aria-hidden="true">↗</span></a>
+        </div>
+        <p className="hero-disclaimer">Google makes final approval decisions; reinstatement is not guaranteed.</p>
       </section>
 
       <section className="profile-wrap" aria-label="About James">
