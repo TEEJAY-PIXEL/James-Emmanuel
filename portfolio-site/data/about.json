@@ -4,7 +4,7 @@
   "story": "I'm James, a freelance Google ecosystem specialist based in Lagos, Nigeria. I help e-commerce stores and small businesses worldwide resolve account and product-feed issues, improve compliance, and make better use of Google's business and measurement tools.",
   "specialty": "My work focuses on Google Merchant Center (GMC), Google Business Profile (GMB), Google Analytics 4 (GA4) and Google Tag Manager (GTM), alongside e-commerce website and store support.",
   "why": "I enjoy helping business owners solve digital problems, understand what is happening behind the scenes and move forward with a clear plan.",
-  "photo": "/portfolio-watermarked/1777307059782.webp",
+  "photo": "https://hxppdwwsfukoavfcsdtu.supabase.co/storage/v1/object/public/IMAGES/james-profile-new.webp",
   "photoAlt": "James, freelance Google ecosystem specialist",
   "tools": [
     "Google Merchant Center",
