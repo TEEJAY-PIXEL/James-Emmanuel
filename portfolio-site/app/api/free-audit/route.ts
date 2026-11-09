@@ -3,7 +3,7 @@ import { lookup } from "node:dns/promises";
 import { isIP } from "node:net";
 export const runtime="nodejs";
 export const maxDuration=60;
-const services=new Set(["GMC","GMB","GA4","GTM"]);
+const services=new Set(["GMC","GMB","GA4","GTM","Google Merchant Center","Google Business Profile","Google Analytics 4","Google Tag Manager"]);
 const escape=(s:string)=>s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]||c));
 const isPrivate=(ip:string)=>{if(ip.includes(":"))return ip==="::1"||ip==="::"||/^(fc|fd|fe8|fe9|fea|feb|::ffff:)/i.test(ip);const p=ip.split(".").map(Number);return p[0]===0||p[0]===10||p[0]===127||p[0]>=224||(p[0]===169&&p[1]===254)||(p[0]===172&&p[1]>=16&&p[1]<=31)||(p[0]===192&&p[1]===168)||(p[0]===100&&p[1]>=64&&p[1]<=127);};
 async function scan(site:string){
