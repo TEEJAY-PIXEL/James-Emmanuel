@@ -18,47 +18,43 @@ export function ProcessSection(){return <section className="home-content-section
 
 export function FAQSection(){const schema={"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqs.map(f=>({"@type":"Question",name:f.question,acceptedAnswer:{"@type":"Answer",text:f.answer}}))};return <section className="home-content-section" id="faq"><div className="home-section-heading"><p className="eyebrow">GOOD TO KNOW</p><h2>Frequently asked questions</h2></div><div className="faq-list">{faqs.map(f=><details key={f.question}><summary>{f.question}</summary><p>{f.answer}</p></details>)}</div><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/></section>}
 
-type FreeReport={summary:string;findings:{title:string;detail:string;severity:string}[];nextStep:string;limitations:string;website:string;checkedAt:string};
 export function FreeAuditSection(){
  const [status,setStatus]=useState<"idle"|"sending"|"success"|"error">("idle");
  const [message,setMessage]=useState("");
- const [report,setReport]=useState<FreeReport|null>(null);
  async function handleSubmit(e:React.FormEvent<HTMLFormElement>){
   e.preventDefault();if(status==="sending")return;
-  setStatus("sending");setMessage("");setReport(null);
-  const data=new FormData(e.currentTarget);
-  const payload={name:String(data.get("name")||""),email:String(data.get("email")||""),website:String(data.get("website")||""),service:String(data.get("service")||""),issue:String(data.get("issue")||""),consent:data.get("consent")==="on",company:String(data.get("company")||"")};
+  const form=e.currentTarget;const data=new FormData(form);
+  if(String(data.get("_honey")||""))return;
+  setStatus("sending");setMessage("");
+  const body=new FormData();
+  body.append("Name",String(data.get("name")||""));
+  body.append("Client email",String(data.get("email")||""));
+  body.append("Website",String(data.get("website")||""));
+  body.append("Service",String(data.get("service")||""));
+  body.append("Reported issue",String(data.get("issue")||""));
+  body.append("_subject","New free website check request — James Emmanuel");
+  body.append("_replyto",String(data.get("email")||""));
+  body.append("_captcha","true");
+  body.append("_template","table");
   try{
-   const response=await fetch("/api/free-audit",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+   const response=await fetch("https://formsubmit.co/ajax/jamesmanuel966@gmail.com",{method:"POST",body,headers:{Accept:"application/json"}});
    const result=await response.json().catch(()=>({}));
-   if(!response.ok||!result.report)throw new Error(result.error||"The check is temporarily unavailable. Please try again.");
-   setReport(result.report);setStatus("success");
-   setMessage("Your preliminary report is ready below. This free version does not send emails.");
-  }catch(error){setStatus("error");setMessage(error instanceof Error?error.message:"Please try again or contact James directly.");}
+   if(!response.ok||result.success===false||result.success==="false")throw Error(result.message||"The request could not be sent. Please try again.");
+   form.reset();setStatus("success");
+   setMessage("Thank you! Your free check request has been submitted. Your report will be sent to your email after review.");
+  }catch(error){setStatus("error");setMessage(error instanceof Error?error.message:"The request could not be sent. Please email James directly.");}
  }
- function downloadReport(){
-  if(!report)return;
-  const content=["PRELIMINARY WEBSITE HEALTH CHECK",report.website,"Checked: "+new Date(report.checkedAt).toLocaleString(),"",report.summary,"",...report.findings.flatMap(f=>[f.title.toUpperCase(),f.detail,""]),report.nextStep,"",report.limitations,"Contact: https://jamesemmanuel.site/contact"].join("\\n");
-  const blob=new Blob([content],{type:"text/plain;charset=utf-8"});const url=URL.createObjectURL(blob);
-  const a=document.createElement("a");a.href=url;a.download="website-health-check.txt";a.click();URL.revokeObjectURL(url);
- }
- return <section className="free-audit-section" id="free-audit"><div><p className="eyebrow">FREE AUTOMATED WEBSITE CHECK</p><h2>Get an instant preliminary website health report</h2><p>Check publicly visible website trust signals and policy links. Get a short, evidence-based report on screen, with no charge.</p><p className="audit-deliverable">This is not a full Google Merchant Center, Ads or Analytics account audit. Private account issues require authorized access.</p></div>
- <div><form className="audit-form" onSubmit={handleSubmit}>
+ return <section className="free-audit-section" id="free-audit"><div><p className="eyebrow">FREE WEBSITE HEALTH CHECK</p><h2>Request your free website review</h2><p>Tell me about your website and the issue you are experiencing. I will review the details and email you a personalized preliminary report.</p><p className="audit-deliverable">Your report is prepared after manual review. Google account issues may require additional information or authorized access.</p></div>
+ <form className="audit-form" onSubmit={handleSubmit}>
  <label>Name<input name="name" autoComplete="name" minLength={2} maxLength={100} required disabled={status==="sending"}/></label>
  <label>Email<input name="email" type="email" autoComplete="email" maxLength={254} required disabled={status==="sending"}/></label>
  <label>Website URL<input name="website" type="url" placeholder="https://example.com" maxLength={2048} required disabled={status==="sending"}/></label>
- <label>Service<select name="service" required defaultValue="" disabled={status==="sending"}><option value="" disabled>Select a service</option><option value="GMC">Google Merchant Center</option><option value="GMB">Google Business Profile</option><option value="GA4">Google Analytics 4</option><option value="GTM">Google Tag Manager</option></select></label>
+ <label>Service<select name="service" required defaultValue="" disabled={status==="sending"}><option value="" disabled>Select a service</option><option>Google Merchant Center</option><option>Google Business Profile</option><option>Google Analytics 4</option><option>Google Tag Manager</option></select></label>
  <label>Describe the issue<textarea name="issue" rows={4} minLength={10} maxLength={3000} required disabled={status==="sending"}/></label>
  <label className="audit-consent"><input type="checkbox" name="consent" required disabled={status==="sending"}/> I agree to the handling of my details as explained in the <a href="/privacy-policy">Privacy Policy</a>.</label>
- <label className="audit-honeypot" aria-hidden="true">Leave this field empty<input name="company" tabIndex={-1} autoComplete="off"/></label>
- <button className="primary-button" type="submit" disabled={status==="sending"}>{status==="sending"?"CHECKING WEBSITE…":"GET MY FREE REPORT ↗"}</button>
+ <label className="audit-honeypot" aria-hidden="true">Leave this field empty<input name="_honey" tabIndex={-1} autoComplete="off"/></label>
+ <button className="primary-button" type="submit" disabled={status==="sending"}>{status==="sending"?"SENDING REQUEST…":"REQUEST MY FREE CHECK ↗"}</button>
  {message&&<p role="status" aria-live="polite" className={status==="error"?"audit-error":"audit-success"}>{message}</p>}
- </form>
- {report&&<article aria-live="polite" style={{marginTop:24,padding:24,border:"1px solid currentColor",borderRadius:12}}>
- <p className="eyebrow">YOUR PRELIMINARY REPORT</p><h3>{report.website}</h3><p>{report.summary}</p>
- {report.findings.map((f,i)=><div key={i} style={{padding:"12px 0",borderBottom:"1px solid #8885"}}><strong>{f.title} — {f.severity==="medium"?"Needs review":f.severity==="unverified"?"Not verified":"Detected"}</strong><p>{f.detail}</p></div>)}
- <p style={{marginTop:16}}>{report.nextStep}</p><p><small>{report.limitations}</small></p>
- <div className="hero-actions"><a className="primary-button" href="/contact">CONTACT JAMES TO FIX ISSUES ↗</a><a className="hero-secondary-button" href="https://wa.me/message/E6ONVPYUJA2TK1" target="_blank" rel="noopener noreferrer">WHATSAPP ↗</a><button type="button" onClick={downloadReport}>DOWNLOAD REPORT</button></div>
- </article>}
- </div></section>;
+ {status==="error"&&<p><a href="mailto:jamesmanuel966@gmail.com">Email James directly ↗</a></p>}
+ </form></section>;
 }
