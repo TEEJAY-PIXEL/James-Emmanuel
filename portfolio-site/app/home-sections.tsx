@@ -18,24 +18,47 @@ export function ProcessSection(){return <section className="home-content-section
 
 export function FAQSection(){const schema={"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqs.map(f=>({"@type":"Question",name:f.question,acceptedAnswer:{"@type":"Answer",text:f.answer}}))};return <section className="home-content-section" id="faq"><div className="home-section-heading"><p className="eyebrow">GOOD TO KNOW</p><h2>Frequently asked questions</h2></div><div className="faq-list">{faqs.map(f=><details key={f.question}><summary>{f.question}</summary><p>{f.answer}</p></details>)}</div><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/></section>}
 
+type FreeReport={summary:string;findings:{title:string;detail:string;severity:string}[];nextStep:string;limitations:string;website:string;checkedAt:string};
 export function FreeAuditSection(){
  const [status,setStatus]=useState<"idle"|"sending"|"success"|"error">("idle");
  const [message,setMessage]=useState("");
- const [report,setReport]=useState<{summary:string;findings:{title:string;detail:string;severity:string}[];nextStep:string;limitations:string}|null>(null);
+ const [report,setReport]=useState<FreeReport|null>(null);
  async function handleSubmit(e:React.FormEvent<HTMLFormElement>){
- e.preventDefault();if(status==="sending")return;
- setStatus("sending");setMessage("");setReport(null);
- const form=e.currentTarget;const data=new FormData(form);
- const payload={name:String(data.get("name")||""),email:String(data.get("email")||""),website:String(data.get("website")||""),service:String(data.get("service")||""),issue:String(data.get("issue")||""),consent:data.get("consent")==="on",company:String(data.get("company")||"")};
- try{
- const response=await fetch("/api/free-audit",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
- const result=await response.json().catch(()=>({}));
- if(!response.ok)throw new Error(result.error||"Unable to generate report. Please try again.");
- if(!result.report)throw new Error("The report was not generated. Please contact James.");
- setReport(result.report);setStatus("success");
- setMessage(result.emailed?"Your report is ready below. A copy has been sent to your email.":"Your report is ready below. Email delivery is not yet available; please save your findings.");
- form.reset();
- }catch(error){setStatus("error");setMessage(error instanceof Error?error.message:"Something went wrong. Please try again.");}
+  e.preventDefault();if(status==="sending")return;
+  setStatus("sending");setMessage("");setReport(null);
+  const data=new FormData(e.currentTarget);
+  const payload={name:String(data.get("name")||""),email:String(data.get("email")||""),website:String(data.get("website")||""),service:String(data.get("service")||""),issue:String(data.get("issue")||""),consent:data.get("consent")==="on",company:String(data.get("company")||"")};
+  try{
+   const response=await fetch("/api/free-audit",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+   const result=await response.json().catch(()=>({}));
+   if(!response.ok||!result.report)throw new Error(result.error||"The check is temporarily unavailable. Please try again.");
+   setReport(result.report);setStatus("success");
+   setMessage("Your preliminary report is ready below. This free version does not send emails.");
+  }catch(error){setStatus("error");setMessage(error instanceof Error?error.message:"Please try again or contact James directly.");}
  }
- return <section className="free-audit-section" id="free-audit"><div><p className="eyebrow">AI-ASSISTED PRELIMINARY REVIEW</p><h2>Get a Free Website Health Check</h2><p>Share your website and issue. Receive a brief, evidence-based preliminary report on screen and by email. Private account settings cannot be inspected without access.</p><p className="audit-deliverable">Automated preliminary check — not a full technical or Merchant Center account audit.</p></div><form className="audit-form" onSubmit={handleSubmit}><label>Name<input name="name" autoComplete="name" minLength={2} maxLength={100} required disabled={status==="sending"}/></label><label>Email<input name="email" type="email" autoComplete="email" maxLength={254} required disabled={status==="sending"}/></label><label>Website URL<input name="website" type="url" placeholder="https://example.com" maxLength={2048} required disabled={status==="sending"}/></label><label>Service<select name="service" required defaultValue="" disabled={status==="sending"}><option value="" disabled>Select a service</option>{audit.services.map(s=><option key={s} value={s}>{s}</option>)}</select></label><label>Describe the issue<textarea name="issue" rows={4} minLength={10} maxLength={3000} required disabled={status==="sending"}/></label><label className="audit-consent"><input type="checkbox" name="consent" required disabled={status==="sending"}/> I agree to the handling of my details as explained in the <a href={audit.privacyPath}>Privacy Policy</a>.</label><label className="audit-honeypot" aria-hidden="true">Leave this field empty<input name="company" tabIndex={-1} autoComplete="off"/></label><button className="primary-button" type="submit" disabled={status==="sending"}>{status==="sending"?"ANALYZING WEBSITE…":"GET MY FREE CHECK ↗"}</button>{message&&<p role="status" aria-live="polite" className={status==="error"?"audit-error":"audit-success"}>{message}</p>}{report&&<article aria-label="Your preliminary website health check" style={{padding:"24px",border:"1px solid #b4c5c1",borderRadius:12,marginTop:18,background:"#fff",color:"#152521"}}><h3>Your Preliminary Health Check</h3><p>{report.summary}</p>{report.findings.map((f,i)=><div key={i} style={{margin:"16px 0"}}><strong>{f.title}</strong><p>{f.detail}</p><small>Assessment: {f.severity}</small></div>)}<h4>Recommended next step</h4><p>{report.nextStep}</p><small>{report.limitations}</small><p style={{marginTop:20}}><a className="primary-button" href="/contact">CONTACT JAMES TO FIX MY ISSUES ↗</a></p></article>}</form></section>;
+ function downloadReport(){
+  if(!report)return;
+  const content=["PRELIMINARY WEBSITE HEALTH CHECK",report.website,"Checked: "+new Date(report.checkedAt).toLocaleString(),"",report.summary,"",...report.findings.flatMap(f=>[f.title.toUpperCase(),f.detail,""]),report.nextStep,"",report.limitations,"Contact: https://jamesemmanuel.site/contact"].join("\\n");
+  const blob=new Blob([content],{type:"text/plain;charset=utf-8"});const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");a.href=url;a.download="website-health-check.txt";a.click();URL.revokeObjectURL(url);
+ }
+ return <section className="free-audit-section" id="free-audit"><div><p className="eyebrow">FREE AUTOMATED WEBSITE CHECK</p><h2>Get an instant preliminary website health report</h2><p>Check publicly visible website trust signals and policy links. Get a short, evidence-based report on screen, with no charge.</p><p className="audit-deliverable">This is not a full Google Merchant Center, Ads or Analytics account audit. Private account issues require authorized access.</p></div>
+ <div><form className="audit-form" onSubmit={handleSubmit}>
+ <label>Name<input name="name" autoComplete="name" minLength={2} maxLength={100} required disabled={status==="sending"}/></label>
+ <label>Email<input name="email" type="email" autoComplete="email" maxLength={254} required disabled={status==="sending"}/></label>
+ <label>Website URL<input name="website" type="url" placeholder="https://example.com" maxLength={2048} required disabled={status==="sending"}/></label>
+ <label>Service<select name="service" required defaultValue="" disabled={status==="sending"}><option value="" disabled>Select a service</option><option value="GMC">Google Merchant Center</option><option value="GMB">Google Business Profile</option><option value="GA4">Google Analytics 4</option><option value="GTM">Google Tag Manager</option></select></label>
+ <label>Describe the issue<textarea name="issue" rows={4} minLength={10} maxLength={3000} required disabled={status==="sending"}/></label>
+ <label className="audit-consent"><input type="checkbox" name="consent" required disabled={status==="sending"}/> I agree to the handling of my details as explained in the <a href="/privacy-policy">Privacy Policy</a>.</label>
+ <label className="audit-honeypot" aria-hidden="true">Leave this field empty<input name="company" tabIndex={-1} autoComplete="off"/></label>
+ <button className="primary-button" type="submit" disabled={status==="sending"}>{status==="sending"?"CHECKING WEBSITE…":"GET MY FREE REPORT ↗"}</button>
+ {message&&<p role="status" aria-live="polite" className={status==="error"?"audit-error":"audit-success"}>{message}</p>}
+ </form>
+ {report&&<article aria-live="polite" style={{marginTop:24,padding:24,border:"1px solid currentColor",borderRadius:12}}>
+ <p className="eyebrow">YOUR PRELIMINARY REPORT</p><h3>{report.website}</h3><p>{report.summary}</p>
+ {report.findings.map((f,i)=><div key={i} style={{padding:"12px 0",borderBottom:"1px solid #8885"}}><strong>{f.title} — {f.severity==="medium"?"Needs review":f.severity==="unverified"?"Not verified":"Detected"}</strong><p>{f.detail}</p></div>)}
+ <p style={{marginTop:16}}>{report.nextStep}</p><p><small>{report.limitations}</small></p>
+ <div className="hero-actions"><a className="primary-button" href="/contact">CONTACT JAMES TO FIX ISSUES ↗</a><a className="hero-secondary-button" href="https://wa.me/message/E6ONVPYUJA2TK1" target="_blank" rel="noopener noreferrer">WHATSAPP ↗</a><button type="button" onClick={downloadReport}>DOWNLOAD REPORT</button></div>
+ </article>}
+ </div></section>;
 }
